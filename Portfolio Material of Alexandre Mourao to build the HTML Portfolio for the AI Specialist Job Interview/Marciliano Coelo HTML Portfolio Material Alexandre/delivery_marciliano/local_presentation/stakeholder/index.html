@@ -1,0 +1,1066 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estratégia Digital Marciliano v4 - Apresentação Executiva</title>
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <style>
+        /* Reset e Base */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            color: #1a1a1a;
+            background-color: #f8fafc;
+        }
+        
+        /* Design System Simples e Funcional */
+        :root {
+            /* Cores Principais */
+            --primary-blue: #1e40af;
+            --primary-blue-light: #3b82f6;
+            --primary-blue-dark: #1e3a8a;
+            
+            /* Cores Secundárias */
+            --secondary-gray: #64748b;
+            --secondary-gray-light: #94a3b8;
+            --secondary-gray-dark: #334155;
+            
+            /* Cores de Fundo */
+            --bg-white: #ffffff;
+            --bg-gray-50: #f8fafc;
+            --bg-gray-100: #f1f5f9;
+            --bg-gray-200: #e2e8f0;
+            
+            /* Cores de Texto */
+            --text-primary: #0f172a;
+            --text-secondary: #475569;
+            --text-muted: #64748b;
+            --text-white: #ffffff;
+            
+            /* Cores de Status */
+            --success: #059669;
+            --warning: #d97706;
+            --error: #dc2626;
+            
+            /* Energia 220 */
+            --energy-220: #f59e0b;
+            --energy-220-light: #fbbf24;
+            
+            /* Espaçamentos */
+            --space-xs: 0.5rem;
+            --space-sm: 1rem;
+            --space-md: 1.5rem;
+            --space-lg: 2rem;
+            --space-xl: 3rem;
+            --space-2xl: 4rem;
+            
+            /* Bordas */
+            --radius-sm: 8px;
+            --radius-md: 12px;
+            --radius-lg: 16px;
+            --radius-xl: 20px;
+            
+            /* Sombras */
+            --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+            --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+            --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+        }
+        
+        /* Layout Principal */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 var(--space-lg);
+        }
+        
+        .main-layout {
+            display: flex;
+            min-height: 100vh;
+        }
+        
+        /* Sidebar */
+        .sidebar {
+            width: 280px;
+            background: var(--primary-blue);
+            padding: var(--space-lg);
+            position: fixed;
+            height: 100vh;
+            overflow-y: auto;
+            z-index: 1000;
+        }
+        
+        .sidebar-header {
+            margin-bottom: var(--space-xl);
+            padding-bottom: var(--space-lg);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .sidebar-header h2 {
+            color: var(--energy-220);
+            font-size: 1.5rem;
+            font-weight: 800;
+            margin-bottom: var(--space-xs);
+        }
+        
+        .sidebar-header p {
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 0.875rem;
+        }
+        
+        .sidebar-nav {
+            list-style: none;
+        }
+        
+        .sidebar-nav li {
+            margin-bottom: var(--space-xs);
+        }
+        
+        .nav-link {
+            display: flex;
+            align-items: center;
+            padding: var(--space-sm) var(--space-md);
+            color: rgba(255, 255, 255, 0.9);
+            text-decoration: none;
+            border-radius: var(--radius-md);
+            transition: all 0.2s ease;
+            font-weight: 500;
+        }
+        
+        .nav-link:hover {
+            background: rgba(255, 255, 255, 0.1);
+            color: var(--text-white);
+        }
+        
+        .nav-link.active {
+            background: var(--energy-220);
+            color: var(--text-white);
+            font-weight: 600;
+        }
+        
+        .nav-link .icon {
+            margin-right: var(--space-sm);
+            font-size: 1.1rem;
+        }
+        
+        /* Conteúdo Principal */
+        .main-content {
+            flex: 1;
+            margin-left: 280px;
+            background: var(--bg-gray-50);
+        }
+        
+        /* Seções */
+        .section {
+            padding: var(--space-2xl) 0;
+        }
+        
+        .section-alt {
+            background: var(--bg-white);
+        }
+        
+        .section h2 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: var(--text-primary);
+            margin-bottom: var(--space-xl);
+            text-align: center;
+        }
+        
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, var(--primary-blue) 0%, var(--primary-blue-light) 100%);
+            color: var(--text-white);
+            padding: var(--space-2xl) 0;
+            text-align: center;
+        }
+        
+        .hero h1 {
+            font-size: 3rem;
+            font-weight: 800;
+            margin-bottom: var(--space-lg);
+            line-height: 1.1;
+        }
+        
+        .hero p {
+            font-size: 1.25rem;
+            margin-bottom: var(--space-xl);
+            opacity: 0.9;
+        }
+        
+        /* Cards */
+        .card {
+            background: var(--bg-white);
+            border-radius: var(--radius-lg);
+            padding: var(--space-xl);
+            box-shadow: var(--shadow-md);
+            border: 1px solid var(--bg-gray-200);
+            transition: all 0.2s ease;
+        }
+        
+        .card:hover {
+            box-shadow: var(--shadow-lg);
+            transform: translateY(-2px);
+        }
+        
+        .card h3 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: var(--space-md);
+            display: flex;
+            align-items: center;
+        }
+        
+        .card h3 .icon {
+            margin-right: var(--space-sm);
+            font-size: 1.25rem;
+        }
+        
+        .card p {
+            color: var(--text-secondary);
+            margin-bottom: var(--space-md);
+        }
+        
+        .card ul {
+            list-style: none;
+            margin-bottom: var(--space-md);
+        }
+        
+        .card ul li {
+            padding: var(--space-xs) 0;
+            color: var(--text-secondary);
+            position: relative;
+            padding-left: var(--space-lg);
+        }
+        
+        .card ul li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: var(--success);
+            font-weight: 600;
+        }
+        
+        /* Grids */
+        .grid {
+            display: grid;
+            gap: var(--space-lg);
+        }
+        
+        .grid-2 {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        
+        .grid-3 {
+            grid-template-columns: repeat(3, 1fr);
+        }
+        
+        .grid-4 {
+            grid-template-columns: repeat(4, 1fr);
+        }
+        
+        /* Botões */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            padding: var(--space-sm) var(--space-lg);
+            border-radius: var(--radius-md);
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.2s ease;
+            border: none;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+        
+        .btn-primary {
+            background: var(--primary-blue);
+            color: var(--text-white);
+        }
+        
+        .btn-primary:hover {
+            background: var(--primary-blue-dark);
+            transform: translateY(-1px);
+            box-shadow: var(--shadow-lg);
+        }
+        
+        .btn-energy-220 {
+            background: var(--energy-220);
+            color: var(--text-white);
+        }
+        
+        .btn-energy-220:hover {
+            background: var(--energy-220-light);
+            transform: translateY(-1px);
+            box-shadow: var(--shadow-lg);
+        }
+        
+        .btn-lg {
+            padding: var(--space-md) var(--space-xl);
+            font-size: 1.125rem;
+        }
+        
+        /* Números Destacados */
+        .number-highlight {
+            font-size: 3rem;
+            font-weight: 800;
+            color: var(--primary-blue);
+            line-height: 1;
+            margin: var(--space-md) 0;
+        }
+        
+        .number-highlight.energy-220 {
+            color: var(--energy-220);
+        }
+        
+        .number-highlight.success {
+            color: var(--success);
+        }
+        
+        /* Badges */
+        .badge {
+            display: inline-block;
+            padding: var(--space-xs) var(--space-sm);
+            border-radius: var(--radius-sm);
+            font-size: 0.875rem;
+            font-weight: 600;
+        }
+        
+        .badge-success {
+            background: #dcfce7;
+            color: var(--success);
+        }
+        
+        .badge-warning {
+            background: #fef3c7;
+            color: var(--warning);
+        }
+        
+        /* Funnel Steps */
+        .funnel-step {
+            background: var(--bg-white);
+            border-radius: var(--radius-lg);
+            padding: var(--space-xl);
+            margin-bottom: var(--space-lg);
+            border-left: 4px solid var(--primary-blue);
+            box-shadow: var(--shadow-md);
+        }
+        
+        .funnel-step h3 {
+            color: var(--text-primary);
+            margin-bottom: var(--space-sm);
+            font-size: 1.25rem;
+        }
+        
+        .funnel-step p {
+            color: var(--text-secondary);
+            margin-bottom: var(--space-md);
+        }
+        
+        /* Progress Bar */
+        .progress-bar {
+            width: 100%;
+            height: 8px;
+            background: var(--bg-gray-200);
+            border-radius: var(--radius-sm);
+            overflow: hidden;
+            margin: var(--space-md) 0;
+        }
+        
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, var(--primary-blue), var(--primary-blue-light));
+            border-radius: var(--radius-sm);
+            transition: width 0.8s ease;
+        }
+        
+        /* Charts */
+        .chart-container {
+            position: relative;
+            height: 300px;
+            margin: var(--space-lg) 0;
+        }
+        
+        /* Responsive */
+        @media (max-width: 1024px) {
+            .grid-3 {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .grid-4 {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .sidebar {
+                transform: translateX(-100%);
+                transition: transform 0.3s ease;
+            }
+            
+            .sidebar.open {
+                transform: translateX(0);
+            }
+            
+            .main-content {
+                margin-left: 0;
+            }
+            
+            .grid-2,
+            .grid-3,
+            .grid-4 {
+                grid-template-columns: 1fr;
+            }
+            
+            .hero h1 {
+                font-size: 2rem;
+            }
+            
+            .number-highlight {
+                font-size: 2rem;
+            }
+        }
+        
+        /* Utilities */
+        .text-center {
+            text-align: center;
+        }
+        
+        .text-energy-220 {
+            color: var(--energy-220);
+            font-weight: 800;
+        }
+        
+        .mb-0 { margin-bottom: 0; }
+        .mb-sm { margin-bottom: var(--space-sm); }
+        .mb-md { margin-bottom: var(--space-md); }
+        .mb-lg { margin-bottom: var(--space-lg); }
+        .mb-xl { margin-bottom: var(--space-xl); }
+        
+        .mt-0 { margin-top: 0; }
+        .mt-sm { margin-top: var(--space-sm); }
+        .mt-md { margin-top: var(--space-md); }
+        .mt-lg { margin-top: var(--space-lg); }
+        .mt-xl { margin-top: var(--space-xl); }
+    </style>
+</head>
+<body>
+    <!-- Sidebar Navigation -->
+    <nav class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <h2>Energia 220</h2>
+            <p>Estratégia Digital v4</p>
+        </div>
+        
+        <ul class="sidebar-nav">
+            <li><a href="#hero" class="nav-link active">
+                <span class="icon">🏠</span>
+                <span>Início</span>
+            </a></li>
+            <li><a href="#estrategia" class="nav-link">
+                <span class="icon">🎯</span>
+                <span>Estratégia</span>
+            </a></li>
+            <li><a href="#mercado" class="nav-link">
+                <span class="icon">📊</span>
+                <span>Mercado</span>
+            </a></li>
+            <li><a href="#funnel" class="nav-link">
+                <span class="icon">🔄</span>
+                <span>Funil Progressivo</span>
+            </a></li>
+            <li><a href="#produtos" class="nav-link">
+                <span class="icon">📚</span>
+                <span>Produtos</span>
+            </a></li>
+            <li><a href="#projecoes" class="nav-link">
+                <span class="icon">💰</span>
+                <span>Projeções</span>
+            </a></li>
+            <li><a href="#cronograma" class="nav-link">
+                <span class="icon">📅</span>
+                <span>Cronograma</span>
+            </a></li>
+            <li><a href="#proximos" class="nav-link">
+                <span class="icon">✅</span>
+                <span>Próximos Passos</span>
+            </a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+            <div class="container">
+                <h1 data-aos="fade-up">Estratégia Digital para Marciliano</h1>
+                <p data-aos="fade-up" data-aos-delay="200">
+                    Transforme sua base de 9.000 seguidores em receita sustentável<br>
+                    <strong>Funil progressivo | Preços acessíveis | Crescimento sustentável</strong>
+                </p>
+                <div data-aos="fade-up" data-aos-delay="400">
+                    <button class="btn btn-energy-220 btn-lg" onclick="scrollToSection('estrategia')">
+                        Ver Estratégia Completa
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Estratégia Executiva -->
+        <section id="estrategia" class="section">
+            <div class="container">
+                <h2 data-aos="fade-up">Estratégia Executiva</h2>
+                <div class="grid grid-3" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card">
+                        <h3><span class="icon">🎯</span>Objetivo</h3>
+                        <p>Transformar a metodologia "Energia 220" de Marciliano em produtos digitais escaláveis, gerando receita sustentável a partir da base de 9.000 seguidores.</p>
+                    </div>
+                    <div class="card">
+                        <h3><span class="icon">💡</span>Diferenciação</h3>
+                        <p>Combinação diferenciada de Psicologia Clínica + Organizacional + Coaching + Experiência Corporativa, posicionada como "pouco explorada" no mercado brasileiro.</p>
+                    </div>
+                    <div class="card">
+                        <h3><span class="icon">🚀</span>Metodologia</h3>
+                        <p>"Psicocoaching Energia 220" - abordagem científica e prática para desenvolvimento pessoal e profissional com estilo comunicativo único.</p>
+                    </div>
+                </div>
+                
+                <div class="card mt-xl" data-aos="fade-up" data-aos-delay="400" style="background: linear-gradient(135deg, #f0f9ff, #e0f2fe); border-left: 4px solid var(--energy-220);">
+                    <h3><span class="icon">🎯</span>Proposta de Valor Diferenciada</h3>
+                    <p><strong>"Metodologia que combina rigor científico da psicologia com a energia transformadora do coaching, aplicada ao mundo corporativo brasileiro."</strong></p>
+                    <ul>
+                        <li>Credenciais diferenciadas: Psicólogo Clínico + Organizacional</li>
+                        <li>Experiência corporativa comprovada</li>
+                        <li>Metodologia "Energia 220" validada</li>
+                        <li>Posicionamento "pouco explorado" no mercado</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Análise de Mercado -->
+        <section id="mercado" class="section section-alt">
+            <div class="container">
+                <h2 data-aos="fade-up">Análise de Mercado</h2>
+                
+                <div class="grid grid-2" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card">
+                        <h3><span class="icon">📈</span>Tamanho do Mercado</h3>
+                        <div class="number-highlight">R$ 500M+</div>
+                        <p>Mercado brasileiro de e-learning e coaching</p>
+                        <ul>
+                            <li>E-learning: US$ 4.27B até 2029</li>
+                            <li>Crescimento: 13.28% ao ano</li>
+                            <li>Coaching: R$ 500M+ no Brasil</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="card">
+                        <h3><span class="icon">🎯</span>Oportunidade</h3>
+                        <div class="number-highlight">9.000</div>
+                        <p>Seguidores atuais de Marciliano (base real)</p>
+                        <ul>
+                            <li>Conversão esperada: 1-3%</li>
+                            <li>Clientes potenciais: 90-270</li>
+                            <li>Crescimento orgânico: +1.000/mês</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="card mt-lg" data-aos="fade-up" data-aos-delay="400">
+                    <h3><span class="icon">🏆</span>Posicionamento Competitivo</h3>
+                    <div class="grid grid-3">
+                        <div>
+                            <h4>Pablo Marçal</h4>
+                            <p><strong>Preço:</strong> R$ 2.997+</p>
+                            <p><strong>Foco:</strong> Motivacional</p>
+                            <p><strong>Diferencial:</strong> Energia + Ciência</p>
+                        </div>
+                        <div style="border: 3px solid var(--primary-blue); border-radius: var(--radius-lg); background: linear-gradient(135deg, #f0f9ff, #e0f2fe); padding: var(--space-lg);">
+                            <h4 style="color: var(--primary-blue);">Marciliano</h4>
+                            <p><strong>Preço:</strong> R$ 49,99 - R$ 997</p>
+                            <p><strong>Foco:</strong> Psicocoaching Diferenciado</p>
+                            <p><strong>Diferencial:</strong> Pouco explorado + Energia 220</p>
+                        </div>
+                        <div>
+                            <h4>Cíntia Chagas</h4>
+                            <p><strong>Preço:</strong> R$ 197+</p>
+                            <p><strong>Foco:</strong> Coaching feminino</p>
+                            <p><strong>Diferencial:</strong> Energia + Corporativo</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Funnel Progressivo -->
+        <section id="funnel" class="section">
+            <div class="container">
+                <h2 data-aos="fade-up">Funil Progressivo - Construção de Confiança</h2>
+                
+                <div class="funnel-step" data-aos="fade-up" data-aos-delay="200">
+                    <h3>🚀 Fase 1: Consolidação da Base (Meses 1-3)</h3>
+                    <p><strong>Objetivo:</strong> Estabelecer autoridade e confiança</p>
+                    <div class="grid grid-2">
+                        <div>
+                            <h4>PDF Básico R$ 49,99</h4>
+                            <p>Produto de entrada acessível</p>
+                            <span class="badge badge-success">Conversão: 5-10%</span>
+                        </div>
+                        <div>
+                            <h4>Palestras Gratuitas</h4>
+                            <p>Demonstração de expertise</p>
+                            <span class="badge badge-success">Engajamento: 60-80%</span>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 33%;"></div>
+                    </div>
+                </div>
+                
+                <div class="funnel-step" data-aos="fade-up" data-aos-delay="400">
+                    <h3>📈 Fase 2: Demonstração de Valor (Meses 4-6)</h3>
+                    <p><strong>Objetivo:</strong> Demonstrar ROI e resultados</p>
+                    <div class="grid grid-2">
+                        <div>
+                            <h4>Masterclass R$ 197</h4>
+                            <p>Pagamento único, alto valor</p>
+                            <span class="badge badge-success">Conversão: 5-10%</span>
+                        </div>
+                        <div>
+                            <h4>Coaching Individual</h4>
+                            <p>R$ 500/sessão</p>
+                            <span class="badge badge-success">Conversão: 20-30%</span>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 66%;"></div>
+                    </div>
+                </div>
+                
+                <div class="funnel-step" data-aos="fade-up" data-aos-delay="600">
+                    <h3>🔄 Fase 3: Receita Recorrente (Meses 7-12)</h3>
+                    <p><strong>Objetivo:</strong> Estabelecer receita recorrente sustentável</p>
+                    <div class="grid grid-2">
+                        <div>
+                            <h4>Assinatura R$ 197/mês</h4>
+                            <p>Conteúdo mensal exclusivo</p>
+                            <span class="badge badge-success">Conversão: 2-5%</span>
+                        </div>
+                        <div>
+                            <h4>Produto Master R$ 997</h4>
+                            <p>Certificação premium</p>
+                            <span class="badge badge-success">Conversão: 1-2%</span>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 100%;"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Produtos e Cursos -->
+        <section id="produtos" class="section section-alt">
+            <div class="container">
+                <h2 data-aos="fade-up">Portfólio de Produtos</h2>
+                
+                <div class="grid grid-2" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card">
+                        <h3><span class="icon">📚</span>1. Fundamentos do Psicocoaching Energia 220</h3>
+                        <div class="number-highlight">R$ 49,99</div>
+                        <p><strong>Produto de Entrada</strong></p>
+                        <ul>
+                            <li>PDF + 3 vídeos explicativos</li>
+                            <li>Conceitos básicos da metodologia</li>
+                            <li>Exercícios práticos</li>
+                            <li>Garantia de 30 dias</li>
+                        </ul>
+                        <span class="badge badge-success">Conversão esperada: 5-10%</span>
+                    </div>
+                    
+                    <div class="card">
+                        <h3><span class="icon">🎯</span>2. Psicocoaching Energia 220 na Prática</h3>
+                        <div class="number-highlight">R$ 197</div>
+                        <p><strong>Curso Principal</strong></p>
+                        <ul>
+                            <li>10 módulos completos</li>
+                            <li>20+ vídeos em HD</li>
+                            <li>Grupo VIP no WhatsApp</li>
+                            <li>Certificado de conclusão</li>
+                        </ul>
+                        <span class="badge badge-success">Conversão esperada: 2-5%</span>
+                    </div>
+                </div>
+                
+                <div class="grid grid-2 mt-lg" data-aos="fade-up" data-aos-delay="400">
+                    <div class="card">
+                        <h3><span class="icon">👔</span>3. Psicocoaching Energia 220 para Executivos</h3>
+                        <div class="number-highlight">R$ 497</div>
+                        <p><strong>Curso Avançado</strong></p>
+                        <ul>
+                            <li>Foco em liderança corporativa</li>
+                            <li>Mentoria individual (1 sessão)</li>
+                            <li>Cases reais de empresas</li>
+                            <li>Networking exclusivo</li>
+                        </ul>
+                        <span class="badge badge-success">Conversão esperada: 1-3%</span>
+                    </div>
+                    
+                    <div class="card">
+                        <h3><span class="icon">🏆</span>4. Certificação Psicocoaching Energia 220</h3>
+                        <div class="number-highlight">R$ 997</div>
+                        <p><strong>Produto Premium</strong></p>
+                        <ul>
+                            <li>Certificação oficial</li>
+                            <li>Licença para replicar</li>
+                            <li>Suporte por 6 meses</li>
+                            <li>Comunidade exclusiva</li>
+                        </ul>
+                        <span class="badge badge-success">Conversão esperada: 0.5-1%</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projeções Financeiras -->
+        <section id="projecoes" class="section">
+            <div class="container">
+                <h2 data-aos="fade-up">Projeções Financeiras</h2>
+                
+                <div class="grid grid-2" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card">
+                        <h3><span class="icon">💰</span>Projeção de Receita</h3>
+                        <div class="chart-container">
+                            <canvas id="revenueChart"></canvas>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <h3><span class="icon">📊</span>Cenários de Receita</h3>
+                        <div class="mb-md">
+                            <h4 style="color: var(--success);">Cenário Conservador</h4>
+                            <div class="number-highlight success">R$ 27.000/mês</div>
+                            <p>Base: 9.000 seguidores (1% conversão)</p>
+                        </div>
+                        <div class="mb-md">
+                            <h4 style="color: var(--primary-blue);">Cenário Realista</h4>
+                            <div class="number-highlight">R$ 54.000/mês</div>
+                            <p>Base: 9.000 → 15.000 seguidores (2% conversão)</p>
+                        </div>
+                        <div>
+                            <h4 style="color: var(--warning);">Cenário Otimista</h4>
+                            <div class="number-highlight energy-220">R$ 81.000/mês</div>
+                            <p>Base: 15.000 → 25.000 seguidores (3% conversão)</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card mt-lg" data-aos="fade-up" data-aos-delay="400" style="background: linear-gradient(135deg, #f0f9ff, #e0f2fe); border-left: 4px solid var(--energy-220);">
+                    <h3><span class="icon">🎯</span>ROI e Investimento</h3>
+                    <div class="grid grid-4">
+                        <div class="text-center">
+                            <div class="number-highlight success">300%</div>
+                            <p>ROI em 12 meses</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="number-highlight">R$ 15.000</div>
+                            <p>Investimento inicial</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="number-highlight">6 meses</div>
+                            <p>Break-even</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="number-highlight energy-220">R$ 648K</div>
+                            <p>Receita anual (cenário realista)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cronograma -->
+        <section id="cronograma" class="section section-alt">
+            <div class="container">
+                <h2 data-aos="fade-up">Cronograma de Implementação</h2>
+                
+                <div class="card" data-aos="fade-up" data-aos-delay="200">
+                    <h3><span class="icon">📅</span>Timeline de 90 Dias</h3>
+                    <div class="grid grid-3">
+                        <div>
+                            <h4>Mês 1: Preparação</h4>
+                            <ul>
+                                <li>Desenvolvimento do PDF R$ 49,99</li>
+                                <li>Configuração da plataforma</li>
+                                <li>Criação de materiais</li>
+                                <li>Testes e validação</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4>Mês 2: Lançamento</h4>
+                            <ul>
+                                <li>Lançamento PDF R$ 49,99</li>
+                                <li>Campanhas de marketing</li>
+                                <li>Coleta de feedback</li>
+                                <li>Otimização de conversão</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4>Mês 3: Expansão</h4>
+                            <ul>
+                                <li>Lançamento Masterclass R$ 197</li>
+                                <li>Implementação de coaching</li>
+                                <li>Escalação de marketing</li>
+                                <li>Análise de resultados</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card mt-lg" data-aos="fade-up" data-aos-delay="400" style="background: linear-gradient(135deg, #f0f9ff, #e0f2fe); border-left: 4px solid var(--energy-220);">
+                    <h3><span class="icon">💰</span>Investimento Necessário</h3>
+                    <div class="grid grid-4">
+                        <div class="text-center">
+                            <div class="number-highlight">R$ 6.000</div>
+                            <p>Desenvolvimento de conteúdo</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="number-highlight">R$ 4.000</div>
+                            <p>Plataforma e tecnologia</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="number-highlight">R$ 3.000</div>
+                            <p>Marketing e publicidade</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="number-highlight">R$ 2.000</div>
+                            <p>Operações e suporte</p>
+                        </div>
+                    </div>
+                    <div class="text-center mt-lg">
+                        <div class="number-highlight energy-220">Total: R$ 15.000</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Próximos Passos -->
+        <section id="proximos" class="section">
+            <div class="container">
+                <h2 data-aos="fade-up">Próximos Passos</h2>
+                
+                <div class="grid grid-3" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card">
+                        <h3><span class="icon">✅</span>Aprovação Imediata</h3>
+                        <p><strong>Carneiro e Marciliano</strong></p>
+                        <ul>
+                            <li>Validação da estratégia</li>
+                            <li>Alocação de budget (R$ 15.000)</li>
+                            <li>Definição de responsabilidades</li>
+                            <li>Início do desenvolvimento</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="card">
+                        <h3><span class="icon">🔍</span>Pesquisa de Mercado</h3>
+                        <p><strong>Orçamentos e Fornecedores</strong></p>
+                        <ul>
+                            <li>Buscar orçamentos de empresas de desenvolvimento</li>
+                            <li>Comparar valores de plataformas</li>
+                            <li>Avaliar fornecedores de conteúdo</li>
+                            <li>Análise de custos realistas</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="card">
+                        <h3><span class="icon">🚀</span>Implementação</h3>
+                        <p><strong>Desenvolvimento e Lançamento</strong></p>
+                        <ul>
+                            <li>Desenvolvimento do PDF R$ 49,99</li>
+                            <li>Configuração da plataforma</li>
+                            <li>Criação de conteúdo com Marciliano</li>
+                            <li>Lançamento em 90 dias</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="text-center mt-xl" data-aos="fade-up" data-aos-delay="400">
+                    <h3>🎯 Decisão Necessária</h3>
+                    <p style="font-size: 1.25rem; margin-bottom: var(--space-xl); color: var(--text-secondary);">
+                        Esta estratégia está pronta para implementação. Com R$ 15.000 de investimento inicial, 
+                        projetamos R$ 648.000 em receita no primeiro ano (cenário realista).
+                    </p>
+                    <button class="btn btn-energy-220 btn-lg" onclick="showContactForm()">
+                        Aprovar Estratégia e Começar
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- JavaScript -->
+    <script>
+        // Initialize AOS
+        AOS.init({
+            duration: 800,
+            easing: 'ease-in-out',
+            once: true
+        });
+
+        // Smooth scrolling
+        function scrollToSection(sectionId) {
+            document.getElementById(sectionId).scrollIntoView({
+                behavior: 'smooth'
+            });
+        }
+
+        // Sidebar navigation
+        document.querySelectorAll('.sidebar-nav a').forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                // Remove active class from all links
+                document.querySelectorAll('.sidebar-nav a').forEach(l => l.classList.remove('active'));
+                
+                // Add active class to clicked link
+                this.classList.add('active');
+                
+                // Scroll to section
+                const targetId = this.getAttribute('href').substring(1);
+                scrollToSection(targetId);
+            });
+        });
+
+        // Revenue Chart
+        const ctx = document.getElementById('revenueChart').getContext('2d');
+        new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: ['Mês 1', 'Mês 2', 'Mês 3', 'Mês 6', 'Mês 9', 'Mês 12'],
+                datasets: [{
+                    label: 'Receita Mensal (R$)',
+                    data: [27000, 35000, 45000, 55000, 65000, 75000],
+                    borderColor: '#1e40af',
+                    backgroundColor: 'rgba(30, 64, 175, 0.1)',
+                    tension: 0.4,
+                    fill: true,
+                    pointBackgroundColor: '#1e40af',
+                    pointBorderColor: '#ffffff',
+                    pointBorderWidth: 2,
+                    pointRadius: 6
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    title: {
+                        display: true,
+                        text: 'Projeção de Receita - Cenário Realista',
+                        font: {
+                            size: 16,
+                            weight: 'bold'
+                        },
+                        color: '#0f172a'
+                    },
+                    legend: {
+                        display: false
+                    }
+                },
+                scales: {
+                    x: {
+                        grid: {
+                            color: '#e2e8f0'
+                        },
+                        ticks: {
+                            color: '#64748b'
+                        }
+                    },
+                    y: {
+                        beginAtZero: true,
+                        grid: {
+                            color: '#e2e8f0'
+                        },
+                        ticks: {
+                            color: '#64748b',
+                            callback: function(value) {
+                                return 'R$ ' + value.toLocaleString();
+                            }
+                        }
+                    }
+                }
+            }
+        });
+
+        // Show contact form
+        function showContactForm() {
+            alert('Formulário de contato será implementado aqui.\n\nPara aprovar a estratégia, entre em contato:\n\nEmail: alexandre@estrategia.com\nWhatsApp: (11) 99999-9999');
+        }
+
+        // Update active nav on scroll
+        window.addEventListener('scroll', function() {
+            const sections = document.querySelectorAll('section[id]');
+            const scrollPos = window.scrollY + 100;
+
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.offsetHeight;
+                const sectionId = section.getAttribute('id');
+
+                if (scrollPos >= sectionTop && scrollPos < sectionTop + sectionHeight) {
+                    document.querySelectorAll('.sidebar-nav a').forEach(link => {
+                        link.classList.remove('active');
+                        if (link.getAttribute('href') === '#' + sectionId) {
+                            link.classList.add('active');
+                        }
+                    });
+                }
+            });
+        });
+
+        // Animate progress bars on scroll
+        const observerOptions = {
+            threshold: 0.5,
+            rootMargin: '0px 0px -100px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const progressBars = entry.target.querySelectorAll('.progress-fill');
+                    progressBars.forEach(bar => {
+                        const width = bar.style.width;
+                        bar.style.width = '0%';
+                        setTimeout(() => {
+                            bar.style.width = width;
+                        }, 500);
+                    });
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.funnel-step').forEach(step => {
+            observer.observe(step);
+        });
+    </script>
+</body>
+</html>

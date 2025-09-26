@@ -1,0 +1,816 @@
+﻿https://www.linkedin.com/in/lexmourao/
+
+
+
+Alexandre has a {:badgeType} account
+Alexandre Mourão 
+ He/Him
+Researcher / RAG Specialist | AI Adoption, Onboarding & Sales | Cursor, ChatGPT, MyGPT Development | 405+ User Sessions | M.S. Science & Public Health USP
+*   * MyGPT Solutions
+*   * USP - Universidade de São Paulo
+São Paulo, São Paulo, Brazil  Contact info
+Try MyGPT Solutions Now
+   * 245 connections
+
+
+About
+About
+🔬 Researcher & RAG Specialist | 405+ User Sessions Proving AI Solutions That Work
+
+
+As a Researcher and RAG Specialist, I create AI systems that bridge academic rigor with business results. My track record: 405+ user sessions across 22+ deployed AI solutions, with my top educational MyGPT tool reaching 100+ active users.
+
+
+🎓 Academic Foundation Meets Business Impact
+
+
+・M.S. in Science & Public Health from USP—bringing research methodology to AI implementation
+・Evidence-based approach to AI strategy and system design
+・Cross-disciplinary expertise spanning healthcare, education, and business transformation
+
+
+🛠️ Production-Grade Technical Specialization
+
+
+・RAG (Retrieval-Augmented Generation) Specialist with advanced prompt engineering
+・Cursor, ChatGPT, and MyGPT Development expertise with 22+ deployed solutions
+・Enterprise Workflow Automation: Complex n8n workflows with PostgreSQL, Qdrant, API integrations
+・Multi-modal AI Architecture: WhatsApp Business API, GPT-4 Vision, Whisper transcription
+・Vector Database Implementation: Qdrant for knowledge base with real-time retrieval
+
+
+🚀 Advanced AI Capabilities (Production-Deployed)
+
+
+・WhatsApp Business Automation: Full-scale patient management with 24/7 AI coaching
+・End-to-end AI Workflows: WAHA → n8n → OpenAI → Database → Response automation
+・Database Architecture: PostgreSQL patient data with automated Google Sheets integration
+・Multi-modal Processing: Text, voice transcription, image analysis, automated responses
+・Professional Development: Modular implementation with comprehensive error handling
+
+
+📈 Proven Business Results
+
+
+・405+ user sessions across deployed AI solution portfolio
+・22+ Custom MyGPT Solutions with measurable user engagement
+・60-80% faster implementation times vs. DIY approaches
+・$500K+ in funding secured for AI startup (bootstrap to MVP in 7 months)
+
+
+🎯 What Sets Me Apart
+
+
+・Full-Stack AI Architecture: From WhatsApp integration to vector databases to automated workflows
+・Production-Grade Quality: Comprehensive error handling, QA frameworks, audit trails
+・Healthcare AI Expertise: HIPAA and LGPD-compliant patient management with 24/7 automated coaching
+・Research + Prompt Engineering: Academic rigor meets production-grade technical implementation
+・Design & Prototyping: Figma, Framer, Miro with entry-level production design capabilities
+・Development Platforms: GitLab/GitHub, Hugging Face, Make in Figma
+・Vibe Coding
+
+
+🚀 Ready to Transform Your Business with AI?
+
+
+📧 Connect with me to explore enterprise AI and automation opportunities.
+   * Top skills
+   * Problem Solving • Analytical Skills • Relationship Building • Communication • Leadership
+
+
+Experience
+   *  MyGPT Solutions logo    * MyGPT Solutions
+   * MyGPT Solutions
+   * Self-employed · 11 mos
+   * Self-employed · 11 mos
+   * Remote
+   * Remote
+      * Generative AI Strategist, Researcher & Consultant
+      * Generative AI Strategist, Researcher & Consultant
+      * Nov 2024 - Present · 11 mos
+      * Nov 2024 to Present · 11 mos
+      * São Paulo, São Paulo, Brazil
+      * São Paulo, São Paulo, Brazil
+      * • Spearheaded AI consulting initiatives at MyGPT Solutions, focusing on LLM research and tailored implementations.
+      * • Developed custom MyGPT models for businesses, enhancing automation and operational efficiency.
+      * • Optimized AI documentation and research workflows, resulting in improved knowledge management and accessibility.
+      * • Spearheaded AI consulting initiatives at MyGPT Solutions, focusing on LLM research and tailored implementations. • Developed custom MyGPT models for businesses, enhancing automation and operational efficiency. • Optimized AI documentation and research workflows, resulting in improved knowledge management and accessibility.
+      * Skills: AI Strategy & Implementation · Operations Management · AI Product Management · SaaS Development · Business Intelligence · Workflow Optimization · Project Management · Data-driven Decision Making
+      * Skills: AI Strategy & Implementation · Operations Management · AI Product Management · SaaS Development · Business Intelligence · Workflow Optimization · Project Management · Data-driven Decision Making
+      *         * ChatGPT - Create My GPT
+      * ChatGPT - Create My GPT
+      *          * Sales Team AI Assistant Developer
+         * Sales Team AI Assistant Developer
+         * Nov 2024 - Present · 11 mos
+         * Nov 2024 to Present · 11 mos
+         * São Paulo, Brazil
+         * São Paulo, Brazil
+         * Developed Shark Vendas MyGPT - an exclusive AI assistant for the Shark Business sales team. Built comprehensive sales automation tool with pitch generation, message templates, and sales simulation capabilities achieving 30+ user sessions.
+         *          * Sales Automation Features:
+         * ・Custom pitch generation system for different customer personas
+・Automated message templates for sales outreach
+・Sales simulation and role-playing training modules
+・Portuguese-language sales process optimization
+・Team-specific command system for sales workflows
+
+Business Impact:
+・Created exclusive sales team AI tool with 30+ active user sessions
+・Automated sales pitch generation and customer communication
+・Built sales training simulations for team skill development
+・Streamlined sales processes for Shark Business operations
+・Delivered measurable user engagement proving tool effectiveness
+
+Technical Implementation:
+・Command-based interaction system for sales processes
+・Custom prompt engineering for sales-specific scenarios
+・Integration with Shark Business branding and methodology
+・Role-based access for sales team members
+・Portuguese-language optimization for Brazilian market
+         * Developed Shark Vendas MyGPT - an exclusive AI assistant for the Shark Business sales team. Built comprehensive sales automation tool with pitch generation, message templates, and sales simulation capabilities achieving 30+ user sessions. Sales Automation Features: ・Custom pitch generation system for different customer personas ・Automated message templates for sales outreach ・Sales simulation and role-playing training modules ・Portuguese-language sales process optimization ・Team-specific command system for sales workflows Business Impact: ・Created exclusive sales team AI tool with 30+ active user sessions ・Automated sales pitch generation and customer communication ・Built sales training simulations for team skill development ・Streamlined sales processes for Shark Business operations ・Delivered measurable user engagement proving tool effectiveness Technical Implementation: ・Command-based interaction system for sales processes ・Custom prompt engineering for sales-specific scenarios ・Integration with Shark Business branding and methodology ・Role-based access for sales team members ・Portuguese-language optimization for Brazilian market
+            * WhatsApp AI Healthcare Automation Developer
+            * WhatsApp AI Healthcare Automation Developer
+            * Nov 2024 - Present · 11 mos
+            * Nov 2024 to Present · 11 mos
+            * São Paulo, Brazil
+            * São Paulo, Brazil
+            * Developed Smart Food WhatsApp AI Assistant - a production-grade healthcare automation system that transforms the Alexandre Mourão Personal Diet Method into a 24/7 WhatsApp-based nutrition coaching platform. Built comprehensive multi-modal AI system with advanced workflow orchestration and healthcare compliance.
+            *             * Technical Architecture:
+            * ・Multi-modal AI Integration: WhatsApp Business API, GPT-4 Vision, Whisper transcription
+・Enterprise Backend: n8n workflows, PostgreSQL, Qdrant vector database
+・Advanced Features: Food photo analysis, voice message processing, automated meal planning
+・Healthcare Compliance: HIPAA/LGPD-compliant patient data management
+
+Key Achievements:
+・Built end-to-end automation: WAHA → n8n → OpenAI → Database → Response
+・Implemented real-time patient registration and onboarding workflows
+・Created comprehensive error handling and audit trail systems
+・Developed modular architecture with 20+ documented workflow nodes
+
+Production Capabilities:
+・24/7 automated patient coaching with personalized nutrition guidance
+・Multi-language support (Portuguese/English) with cultural adaptation
+・Automated Google Sheets integration for patient tracking
+・Professional QA framework with comprehensive testing protocols
+
+Technical Stack: n8n, WAHA, OpenAI GPT-4, Qdrant, PostgreSQL, WhatsApp Business API, Whisper, Google Sheets API
+            * Developed Smart Food WhatsApp AI Assistant - a production-grade healthcare automation system that transforms the Alexandre Mourão Personal Diet Method into a 24/7 WhatsApp-based nutrition coaching platform. Built comprehensive multi-modal AI system with advanced workflow orchestration and healthcare compliance. Technical Architecture: ・Multi-modal AI Integration: WhatsApp Business API, GPT-4 Vision, Whisper transcription ・Enterprise Backend: n8n workflows, PostgreSQL, Qdrant vector database ・Advanced Features: Food photo analysis, voice message processing, automated meal planning ・Healthcare Compliance: HIPAA/LGPD-compliant patient data management Key Achievements: ・Built end-to-end automation: WAHA → n8n → OpenAI → Database → Response ・Implemented real-time patient registration and onboarding workflows ・Created comprehensive error handling and audit trail systems ・Developed modular architecture with 20+ documented workflow nodes Production Capabilities: ・24/7 automated patient coaching with personalized nutrition guidance ・Multi-language support (Portuguese/English) with cultural adaptation ・Automated Google Sheets integration for patient tracking ・Professional QA framework with comprehensive testing protocols Technical Stack: n8n, WAHA, OpenAI GPT-4, Qdrant, PostgreSQL, WhatsApp Business API, Whisper, Google Sheets API
+               * Healthcare AI Assistant Developer
+               * Healthcare AI Assistant Developer
+               * Nov 2024 - Present · 11 mos
+               * Nov 2024 to Present · 11 mos
+               * São Paulo, Brazil
+               * São Paulo, Brazil
+               * Developed Alexandre Mourão Personal Diet Method - a personalized nutrition MyGPT assistant with command-based interaction system. Built comprehensive 10-week program methodology with automated meal tracking, analysis, and reporting.
+               *                * Key Features Built:
+               * ・Command-based interaction system (/log, /analyze, /suggest, /report, /calories)
+・Multi-language support (Portuguese/English) with nutritional context
+・Automated meal planning and progress tracking system
+・Professional health supervision integration protocols
+・HIPAA and LGPD-compliant patient data handling
+               * Developed Alexandre Mourão Personal Diet Method - a personalized nutrition MyGPT assistant with command-based interaction system. Built comprehensive 10-week program methodology with automated meal tracking, analysis, and reporting. Key Features Built: ・Command-based interaction system (/log, /analyze, /suggest, /report, /calories) ・Multi-language support (Portuguese/English) with nutritional context ・Automated meal planning and progress tracking system ・Professional health supervision integration protocols ・HIPAA and LGPD-compliant patient data handling
+               *                  * ChatGPT - Alexandre Mourao Personal Diet Method
+               * ChatGPT - Alexandre Mourao Personal Diet Method
+               *                   * Educational AI Assistant Developer
+                  * Educational AI Assistant Developer
+                  * Nov 2024 - Present · 11 mos
+                  * Nov 2024 to Present · 11 mos
+                  * São Paulo, Brazil
+                  * São Paulo, Brazil
+                  * Built GPT in the Classroom - an MyGPT assistant designed to help educators integrate AI into their teaching and administrative workflows. Developed comprehensive educational content delivery system with UNESCO-compliant frameworks and multi-language support.
+                  *                   * Technical Implementation:
+                  * ・ Created interactive educational AI assistant with 100+ user sessions
+・ Developed comprehensive course curriculum delivery system for AI in education
+・ Built multi-modal content generation (text, presentations, assessments)
+・ Implemented Portuguese/English language support with educational context
+                  * Built GPT in the Classroom - an MyGPT assistant designed to help educators integrate AI into their teaching and administrative workflows. Developed comprehensive educational content delivery system with UNESCO-compliant frameworks and multi-language support. Technical Implementation: ・ Created interactive educational AI assistant with 100+ user sessions ・ Developed comprehensive course curriculum delivery system for AI in education ・ Built multi-modal content generation (text, presentations, assessments) ・ Implemented Portuguese/English language support with educational context
+                  *                     * ChatGPT - GPT in the Classroom
+                  * ChatGPT - GPT in the Classroom
+                  *                      * Production AI Assistant Developer
+                     * Production AI Assistant Developer
+                     * Nov 2024 - Present · 11 mos
+                     * Nov 2024 to Present · 11 mos
+                     * São Paulo, Brazil
+                     * São Paulo, Brazil
+                     * Built Produção Audiovisual | Uma Dose de Nós - AI-powered web series production MyGPT assistant with role-based access system. Developed comprehensive production management tool with specialized commands for actors, directors, producers, and screenwriters.
+                     *                      * Production Features:
+                     * ・Role-based access system (actor, director, producer, screenwriter, photographer, art director)
+・Comprehensive command system (40+ specialized commands)
+・Multi-language production workflows (Portuguese/English)
+・Document management and scene analysis capabilities
+・Automated production scheduling and task management
+                     * Built Produção Audiovisual | Uma Dose de Nós - AI-powered web series production MyGPT assistant with role-based access system. Developed comprehensive production management tool with specialized commands for actors, directors, producers, and screenwriters. Production Features: ・Role-based access system (actor, director, producer, screenwriter, photographer, art director) ・Comprehensive command system (40+ specialized commands) ・Multi-language production workflows (Portuguese/English) ・Document management and scene analysis capabilities ・Automated production scheduling and task management
+                        * Corporate AI Solutions Developer
+                        * Corporate AI Solutions Developer
+                        * Nov 2024 - Present · 11 mos
+                        * Nov 2024 to Present · 11 mos
+                        * São Paulo, Brazil
+                        * São Paulo, Brazil
+                        * Developed specialized MyGPT assistants for corporate operations including prototypes to present to Taralli Labs (Compliance), PhycoAI Labs (ESG Assistant), Operations Manager AI-Assistant, and MindMiners (GPT Guide). Built industry-specific automation tools for legal compliance, sustainability reporting, and operational efficiency.
+                        *                         * Corporate Solutions:
+                        * ・Legal compliance automation for blockchain and operations management
+・ESG sustainability reporting and metrics tracking
+・Enterprise knowledge bases for product expertise and insights
+・Operations automation for onboarding, training, and workflow management
+・Cross-industry specialization (legal, sustainability, operations, product management)
+                        * Developed specialized MyGPT assistants for corporate operations including prototypes to present to Taralli Labs (Compliance), PhycoAI Labs (ESG Assistant), Operations Manager AI-Assistant, and MindMiners (GPT Guide). Built industry-specific automation tools for legal compliance, sustainability reporting, and operational efficiency. Corporate Solutions: ・Legal compliance automation for blockchain and operations management ・ESG sustainability reporting and metrics tracking ・Enterprise knowledge bases for product expertise and insights ・Operations automation for onboarding, training, and workflow management ・Cross-industry specialization (legal, sustainability, operations, product management)
+                           * Continuous Context Engineering & Development Specialist
+                           * Continuous Context Engineering & Development Specialist
+                           * Nov 2024 - Present · 11 mos
+                           * Nov 2024 to Present · 11 mos
+                           * São Paulo, São Paulo, Brazil
+                           * São Paulo, São Paulo, Brazil
+                           * Applied Master's-level research methodologies to AI development workflows, creating "Continuous Context" frameworks that maintain project consistency and memory across development sessions. Specialized in research-driven prompt engineering, systematic data organization and vibe coding.
+                           *                            * Research-Driven Development:
+                           * ・Systematic Documentation: Applied academic research principles for comprehensive project tracking and context preservation
+・Advanced Cursor Workflows: Developed structured .cursorrules and logging systems preventing context loss
+・Evidence-Based Decision Tracking: Research methodologies ensuring all decisions are documented and traceable
+・Data Organization: Master's-level approaches to structuring project data and automated learning architectures
+
+Technical Applications:
+・Smart Food WhatsApp Automation: Systematic research approach to complex n8n workflow development (40+ nodes, PostgreSQL, Qdrant)
+・Project Memory Systems: Automated tracking capturing every decision and maintaining context consistency
+・Prompt Engineering Research: Systematic experimentation and documentation of optimization techniques
+Research Foundation:
+・Master's in Science & Public Health: Advanced training in systematic methodology and evidence-based documentation
+・Applied Research: Translating academic rigor into practical AI development workflows
+・Context Preservation: Research-driven approaches maintaining project continuity and preventing information loss
+
+Technical Stack: Cursor IDE, .cursorrules Development, Research Methodology, Systematic Documentation, Prompt Engineering Research, n8n Analysis
+                           * Applied Master's-level research methodologies to AI development workflows, creating "Continuous Context" frameworks that maintain project consistency and memory across development sessions. Specialized in research-driven prompt engineering, systematic data organization and vibe coding. Research-Driven Development: ・Systematic Documentation: Applied academic research principles for comprehensive project tracking and context preservation ・Advanced Cursor Workflows: Developed structured .cursorrules and logging systems preventing context loss ・Evidence-Based Decision Tracking: Research methodologies ensuring all decisions are documented and traceable ・Data Organization: Master's-level approaches to structuring project data and automated learning architectures Technical Applications: ・Smart Food WhatsApp Automation: Systematic research approach to complex n8n workflow development (40+ nodes, PostgreSQL, Qdrant) ・Project Memory Systems: Automated tracking capturing every decision and maintaining context consistency ・Prompt Engineering Research: Systematic experimentation and documentation of optimization techniques Research Foundation: ・Master's in Science & Public Health: Advanced training in systematic methodology and evidence-based documentation ・Applied Research: Translating academic rigor into practical AI development workflows ・Context Preservation: Research-driven approaches maintaining project continuity and preventing information loss Technical Stack: Cursor IDE, .cursorrules Development, Research Methodology, Systematic Documentation, Prompt Engineering Research, n8n Analysis
+                              *  ARBO Health logo                               * Former Co-Founder
+                              * Former Co-Founder
+                              * ARBO Health · Full-time
+                              * ARBO Health · Full-time
+                              * Mar 2023 - Oct 2024 · 1 yr 8 mos
+                              * Mar 2023 to Oct 2024 · 1 yr 8 mos
+                                 * As CEO and Co-Founder of ARBO, I am deeply committed to transforming healthcare through technology.
+                                 *                                  * Alongside my co-founder and investor, Antonio Bruce of SeedTS, we aim to connect the healthcare ecosystem anywhere.
+                                 * 
+Our collaborative vision drives ARBO’s mission to seamlessly integrate cutting-edge technologies with personalized care, making healthcare more accessible and efficient through a comprehensive digital platform that connects patients with healthcare services globally.
+
+In my role, mentored and guided by Bruce, I:
+
+-> Strategically direct the vision and operational execution of ARBO, aligning our goals with the broader mission to innovate and improve healthcare globally.
+
+-> Lead the development of ARBO’s platform, which includes telehealth, AI-enhanced tools, and a comprehensive patient management system, ensuring that our solutions empower both healthcare providers and patients.
+
+-> Work closely with a diverse team of healthcare professionals and technology experts to pioneer solutions that enhance patient outcomes and simplify healthcare processes.
+
+-> Advocate for the integration of AI and machine learning to provide predictive insights and proactive healthcare solutions.
+
+-> Cultivate a culture of excellence and innovation, striving to push the boundaries of technology in healthcare.
+
+-> I am passionate about redefining healthcare delivery, ensuring that ARBO leads the way in efficiency and accessibility. My focus is on enhancing patient-provider communication, streamlining health management, and reshaping the future of health and wellness.
+
+We are improving the healthcare landscape, committed to empowering both healthcare providers and patients, ensuring that every interaction within the healthcare ecosystem is seamless, informed, and personalized.
+                                 * As CEO and Co-Founder of ARBO, I am deeply committed to transforming healthcare through technology. Alongside my co-founder and investor, Antonio Bruce of SeedTS, we aim to connect the healthcare ecosystem anywhere. Our collaborative vision drives ARBO’s mission to seamlessly integrate cutting-edge technologies with personalized care, making healthcare more accessible and efficient through a comprehensive digital platform that connects patients with healthcare services globally. In my role, mentored and guided by Bruce, I: -> Strategically direct the vision and operational execution of ARBO, aligning our goals with the broader mission to innovate and improve healthcare globally. -> Lead the development of ARBO’s platform, which includes telehealth, AI-enhanced tools, and a comprehensive patient management system, ensuring that our solutions empower both healthcare providers and patients. -> Work closely with a diverse team of healthcare professionals and technology experts to pioneer solutions that enhance patient outcomes and simplify healthcare processes. -> Advocate for the integration of AI and machine learning to provide predictive insights and proactive healthcare solutions. -> Cultivate a culture of excellence and innovation, striving to push the boundaries of technology in healthcare. -> I am passionate about redefining healthcare delivery, ensuring that ARBO leads the way in efficiency and accessibility. My focus is on enhancing patient-provider communication, streamlining health management, and reshaping the future of health and wellness. We are improving the healthcare landscape, committed to empowering both healthcare providers and patients, ensuring that every interaction within the healthcare ecosystem is seamless, informed, and personalized.
+                                 * Skills: Operations Management · AI Product Management · SaaS Development · Business Intelligence · Project Management · Data-driven Decision Making
+                                 * Skills: Operations Management · AI Product Management · SaaS Development · Business Intelligence · Project Management · Data-driven Decision Making
+                                 *                                    * ARBO Health
+                                 * ARBO Health
+                                 * Connect with your healthcare ecosystem, anywhere.
+                                 * Connect with your healthcare ecosystem, anywhere.
+                                 *                                     * Nutritionist & Researcher
+                                    * Nutritionist & Researcher
+                                    * Nutritionist & Researcher
+                                    * Pesquisador Alexandre Mourão · Self-employed
+                                    * Pesquisador Alexandre Mourão · Self-employed
+                                    * Oct 2008 - May 2024 · 15 yrs 8 mos
+                                    * Oct 2008 to May 2024 · 15 yrs 8 mos
+                                    * Brazil · Hybrid
+                                    * Brazil · Hybrid
+                                    * Skills: Project Coordination · Operations Management · Business Development · English · Qualitative & Quantitative Research Methodologies · Marketing Strategy · Strategic Thinking · Partner Relationship Management · Community Engagement · Project Management · Logistics Management · Strategic Planning · Leadership · International Logistics · Customer Service · Workflow Management · Strategic Partnerships · Qualitative Research · Decision-Making · Data-driven Decision Making · Quality Assurance · Cost Reduction · Quantitative Research
+                                    * Skills: Project Coordination · Operations Management · Business Development · English · Qualitative & Quantitative Research Methodologies · Marketing Strategy · Strategic Thinking · Partner Relationship Management · Community Engagement · Project Management · Logistics Management · Strategic Planning · Leadership · International Logistics · Customer Service · Workflow Management · Strategic Partnerships · Qualitative Research · Decision-Making · Data-driven Decision Making · Quality Assurance · Cost Reduction · Quantitative Research
+                                    * Office Head
+                                    * Office Head
+                                    * Office Head
+                                    * Public Health and Technology Startup · Contract
+                                    * Public Health and Technology Startup · Contract
+                                    * Jan 2022 - Mar 2023 · 1 yr 3 mos
+                                    * Jan 2022 to Mar 2023 · 1 yr 3 mos
+                                    * New York, New York, United States · Remote
+                                    * New York, New York, United States · Remote
+                                    * * I led the establishment of the company's office in Brazil, overseeing planning, business development, strategy, and logistics to ensure a successful market entry.
+                                    *                                     * * I collaborated with legal teams in the USA and Brazil, accountants, and regulators to meet local regulations, compliance requirements, and establish a solid legal basis for the company's operations.
+                                    * 
+* I developed and executed comprehensive business development strategies to boost growth, ensure partnerships, and expand the company's presence in the Brazilian market.
+
+* I managed a team of professionals, providing leadership, guidance, and support to achieve the main business objectives.
+
+* I conducted market research and analyses to identify opportunities, evaluate competition, and subsidize strategic decision-making.
+
+* I built and cultivated relationships with key stakeholders, including customers, partners, and industry influencers, to drive business opportunities and promote the company's mission.
+
+* I collaborated with multidisciplinary teams to ensure the perfect execution of projects and initiatives, using solid communication and project management skills.
+                                    * * I led the establishment of the company's office in Brazil, overseeing planning, business development, strategy, and logistics to ensure a successful market entry. * I collaborated with legal teams in the USA and Brazil, accountants, and regulators to meet local regulations, compliance requirements, and establish a solid legal basis for the company's operations. * I developed and executed comprehensive business development strategies to boost growth, ensure partnerships, and expand the company's presence in the Brazilian market. * I managed a team of professionals, providing leadership, guidance, and support to achieve the main business objectives. * I conducted market research and analyses to identify opportunities, evaluate competition, and subsidize strategic decision-making. * I built and cultivated relationships with key stakeholders, including customers, partners, and industry influencers, to drive business opportunities and promote the company's mission. * I collaborated with multidisciplinary teams to ensure the perfect execution of projects and initiatives, using solid communication and project management skills.
+                                    * Skills: Project Coordination · Operations Management · Business Development · English · Relationship Building · Proposal Writing · AI Product Management · SaaS Development · Strategic Thinking · Business Insights · Team Management · Business Intelligence · Partner Relationship Management · Community Engagement · Project Management · Logistics Management · Communication · Financial and Legal Collaboration · Strategic Planning · Leadership · Market Research · International Logistics · Workflow Management · Strategic Partnerships · Regulatory Compliance · Competitive Analysis · Decision-Making · Data-driven Decision Making · Cost Reduction
+                                    * Skills: Project Coordination · Operations Management · Business Development · English · Relationship Building · Proposal Writing · AI Product Management · SaaS Development · Strategic Thinking · Business Insights · Team Management · Business Intelligence · Partner Relationship Management · Community Engagement · Project Management · Logistics Management · Communication · Financial and Legal Collaboration · Strategic Planning · Leadership · Market Research · International Logistics · Workflow Management · Strategic Partnerships · Regulatory Compliance · Competitive Analysis · Decision-Making · Data-driven Decision Making · Cost Reduction
+                                       * Executive Producer
+                                       * Executive Producer
+                                       * Executive Producer
+                                       * Espaço Dona Regina · Full-time
+                                       * Espaço Dona Regina · Full-time
+                                       * Oct 2020 - Dec 2022 · 2 yrs 3 mos
+                                       * Oct 2020 to Dec 2022 · 2 yrs 3 mos
+                                       * Itaúna, Minas Gerais, Brazil · On-site
+                                       * Itaúna, Minas Gerais, Brazil · On-site
+                                       * * I successfully led teams and coordinated projects in various areas within Espaço Dona Regina, ensuring the flawless execution of events and productions.
+                                       *                                        * * I developed and implemented operational processes to optimize efficiency, streamline workflows, and enhance the overall event experience.
+                                       * 
+* I managed contracts and negotiations with clients and suppliers, demonstrating solid negotiation skills and maintaining positive business relationships.
+
+* I achieved cost reductions through strategic planning, efficient resource allocation, and effective budget management.
+
+* I oversaw team management, fostering a collaborative and high-performance environment, ensuring the successful delivery of projects.
+
+* I contributed to the strategic career planning of team members, offering mentorship, guidance, and professional development opportunities.
+
+* I collaborated closely with clients to understand their event objectives, aligning production plans and delivering exceptional results.
+
+* I maintained meticulous attention to detail in all aspects of event production, ensuring high standards of quality and client satisfaction.
+
+* I used strong organizational and problem-solving skills to overcome challenges and deliver successful events within the deadline and budget.
+
+* I created social projects with the community.
+                                       * * I successfully led teams and coordinated projects in various areas within Espaço Dona Regina, ensuring the flawless execution of events and productions. * I developed and implemented operational processes to optimize efficiency, streamline workflows, and enhance the overall event experience. * I managed contracts and negotiations with clients and suppliers, demonstrating solid negotiation skills and maintaining positive business relationships. * I achieved cost reductions through strategic planning, efficient resource allocation, and effective budget management. * I oversaw team management, fostering a collaborative and high-performance environment, ensuring the successful delivery of projects. * I contributed to the strategic career planning of team members, offering mentorship, guidance, and professional development opportunities. * I collaborated closely with clients to understand their event objectives, aligning production plans and delivering exceptional results. * I maintained meticulous attention to detail in all aspects of event production, ensuring high standards of quality and client satisfaction. * I used strong organizational and problem-solving skills to overcome challenges and deliver successful events within the deadline and budget. * I created social projects with the community.
+                                       * Skills: Project Coordination · Business Development · Attention to Detail · Proposal Writing · Marketing Strategy · Production · Business Insights · Team Management · Partner Relationship Management · Community Engagement · Project Management · Client Collaboration · Logistics Management · Event Production · Communication · Negotiation · Leadership · Market Research · Problem Solving · Mentorship · Customer Service · Workflow Management · Strategic Partnerships · Event Management · Decision-Making · Quality Assurance · Cost Reduction
+                                       * Skills: Project Coordination · Business Development · Attention to Detail · Proposal Writing · Marketing Strategy · Production · Business Insights · Team Management · Partner Relationship Management · Community Engagement · Project Management · Client Collaboration · Logistics Management · Event Production · Communication · Negotiation · Leadership · Market Research · Problem Solving · Mentorship · Customer Service · Workflow Management · Strategic Partnerships · Event Management · Decision-Making · Quality Assurance · Cost Reduction
+                                          * Content Producer & Promoter
+                                          * Content Producer & Promoter
+                                          * Content Producer & Promoter
+                                          * Grupo DEdge · Freelance
+                                          * Grupo DEdge · Freelance
+                                          * Jan 2016 - Dec 2019 · 4 yrs
+                                          * Jan 2016 to Dec 2019 · 4 yrs
+                                          * São Paulo, Brazil · Hybrid
+                                          * São Paulo, Brazil · Hybrid
+                                          * Trabalho direto com a produtora Anna Biazin.
+                                          * Trabalho direto com a produtora Anna Biazin.
+                                          * Skills: Proposal Writing · Marketing Strategy · Communication
+                                          * Skills: Proposal Writing · Marketing Strategy · Communication
+                                          * Deputy Director
+                                          * Deputy Director
+                                          * Deputy Director
+                                          * WorkFactory at www.chezluc.com · Full-time
+                                          * WorkFactory at www.chezluc.com · Full-time
+                                          * Jan 2018 - Jan 2019 · 1 yr 1 mo
+                                          * Jan 2018 to Jan 2019 · 1 yr 1 mo
+                                          * San Francisco, California, United States · Hybrid
+                                          * San Francisco, California, United States · Hybrid
+                                          * Skills: Project Coordination · Business Development · English · Proposal Writing · Marketing Strategy · Strategic Thinking · Business Insights · Project Management · Communication · Problem Solving · Customer Service · Workflow Management · Strategic Partnerships · Quality Assurance · Cost Reduction
+                                          * Skills: Project Coordination · Business Development · English · Proposal Writing · Marketing Strategy · Strategic Thinking · Business Insights · Project Management · Communication · Problem Solving · Customer Service · Workflow Management · Strategic Partnerships · Quality Assurance · Cost Reduction
+                                          * Assistant Producer
+                                          * Assistant Producer
+                                          * Assistant Producer
+                                          * RATIER · Freelance
+                                          * RATIER · Freelance
+                                          * Jan 2015 - Dec 2018 · 4 yrs
+                                          * Jan 2015 to Dec 2018 · 4 yrs
+                                          * São Paulo, Brazil · On-site
+                                          * São Paulo, Brazil · On-site
+                                          * Assistente de logística, casting e produção de Vivi Rivaben, Stylist e produtora da marca
+                                          * Ratier, para quatro edições do São Paulo Fashion Week - SPFW (2015 a 2018).
+                                          * Assistente de logística, casting e produção de Vivi Rivaben, Stylist e produtora da marca Ratier, para quatro edições do São Paulo Fashion Week - SPFW (2015 a 2018).
+                                          * Tour Manager
+                                          * Tour Manager
+                                          * Tour Manager
+                                          * Variados ( Carlos Capslock, Grupo Dedge, DJs independentes) · Freelance
+                                          * Variados ( Carlos Capslock, Grupo Dedge, DJs independentes) · Freelance
+                                          * Jan 2017 - Jan 2018 · 1 yr 1 mo
+                                          * Jan 2017 to Jan 2018 · 1 yr 1 mo
+                                          * São Paulo, Brazil · On-site
+                                          * São Paulo, Brazil · On-site
+                                          * Tour manager de pessoas físicas, artistas nacionais e internacionais.
+                                          * Tour manager de pessoas físicas, artistas nacionais e internacionais.
+                                          * Skills: English · Customer Service
+                                          * Skills: English · Customer Service
+                                          * Assistant Creative Director
+                                          * Assistant Creative Director
+                                          * Assistant Creative Director
+                                          * STUDIO DANY CURY · Full-time
+                                          * STUDIO DANY CURY · Full-time
+                                          * Jan 2017 - Jan 2018 · 1 yr 1 mo
+                                          * Jan 2017 to Jan 2018 · 1 yr 1 mo
+                                          * São Paulo, Brazil · On-site
+                                          * São Paulo, Brazil · On-site
+                                          * Skills: Project Coordination · Business Development · Proposal Writing · Marketing Strategy · Business Insights · Partner Relationship Management · Logistics Management · Leadership · Workflow Management · Strategic Partnerships · Quality Assurance · Cost Reduction
+                                          * Skills: Project Coordination · Business Development · Proposal Writing · Marketing Strategy · Business Insights · Partner Relationship Management · Logistics Management · Leadership · Workflow Management · Strategic Partnerships · Quality Assurance · Cost Reduction
+                                          * Nutritionist
+                                          * Nutritionist
+                                          * Nutritionist
+                                          * MBS Seguros: Administradora de Seguros e Benefícios · Contract
+                                          * MBS Seguros: Administradora de Seguros e Benefícios · Contract
+                                          * Jan 2011 - Jan 2013 · 2 yrs 1 mo
+                                          * Jan 2011 to Jan 2013 · 2 yrs 1 mo
+                                          * São Paulo, Brazil · On-site
+                                          * São Paulo, Brazil · On-site
+                                          * Skills: Project Coordination · Leadership · Workflow Management · Strategic Partnerships · Quality Assurance
+                                          * Skills: Project Coordination · Leadership · Workflow Management · Strategic Partnerships · Quality Assurance
+                                          * Nutrition Consultant
+                                          * Nutrition Consultant
+                                          * Nutrition Consultant
+                                          * Mais Atitude Mais Bem Estar – Assessoria em Qualidade de Vida · Contract
+                                          * Mais Atitude Mais Bem Estar – Assessoria em Qualidade de Vida · Contract
+                                          * Aug 2011 - Aug 2012 · 1 yr 1 mo
+                                          * Aug 2011 to Aug 2012 · 1 yr 1 mo
+                                          * São Paulo, Brazil · On-site
+                                          * São Paulo, Brazil · On-site
+                                          * Skills: Project Coordination · Marketing Strategy · Leadership · Workflow Management · Strategic Partnerships · Quality Assurance
+                                          * Skills: Project Coordination · Marketing Strategy · Leadership · Workflow Management · Strategic Partnerships · Quality Assurance
+                                          * Nutrition Specialist
+                                          * Nutrition Specialist
+                                          * Nutrition Specialist
+                                          * Inter Plaza: Administradora de Seguros e Benefícios · Contract
+                                          * Inter Plaza: Administradora de Seguros e Benefícios · Contract
+                                          * Apr 2011 - Jul 2011 · 4 mos
+                                          * Apr 2011 to Jul 2011 · 4 mos
+                                          * São Paulo, Brazil · On-site
+                                          * São Paulo, Brazil · On-site
+                                          * Skills: Project Coordination · Proposal Writing · Leadership · Workflow Management · Strategic Partnerships
+                                          * Skills: Project Coordination · Proposal Writing · Leadership · Workflow Management · Strategic Partnerships
+                                          * Registered Dietitian
+                                          * Registered Dietitian
+                                          * Registered Dietitian
+                                          * EMEX - NUTRIÇÃO ORIENTADA · Full-time
+                                          * EMEX - NUTRIÇÃO ORIENTADA · Full-time
+                                          * Oct 2010 - Apr 2011 · 7 mos
+                                          * Oct 2010 to Apr 2011 · 7 mos
+                                          * São Paulo, Brazil · On-site
+                                          * São Paulo, Brazil · On-site
+                                          * Skills: Project Coordination · Proposal Writing · Team Management · Leadership · Customer Service · Workflow Management · Strategic Partnerships · Decision-Making · Quality Assurance
+                                          * Skills: Project Coordination · Proposal Writing · Team Management · Leadership · Customer Service · Workflow Management · Strategic Partnerships · Decision-Making · Quality Assurance
+                                          * Director of Nutrition Services
+                                          * Director of Nutrition Services
+                                          * Director of Nutrition Services
+                                          * Unidade de Alimentação e Nutrição da Sabor da Gente LTDA - Refeições Transportadas · Full-time
+                                          * Unidade de Alimentação e Nutrição da Sabor da Gente LTDA - Refeições Transportadas · Full-time
+                                          * Feb 2010 - Jun 2010 · 5 mos
+                                          * Feb 2010 to Jun 2010 · 5 mos
+                                          * Betim, Minas Gerais, Brazil · On-site
+                                          * Betim, Minas Gerais, Brazil · On-site
+                                          * Skills: Strategic Thinking · Business Insights · Team Management · Logistics Management · Leadership · Workflow Management · Decision-Making · Cost Reduction
+                                          * Skills: Strategic Thinking · Business Insights · Team Management · Logistics Management · Leadership · Workflow Management · Decision-Making · Cost Reduction
+                                          *  NHS logo                                           * Healthcare Assistant
+                                          * Healthcare Assistant
+                                          * NHS · Part-time
+                                          * NHS · Part-time
+                                          * Oct 2008 - Oct 2009 · 1 yr 1 mo
+                                          * Oct 2008 to Oct 2009 · 1 yr 1 mo
+                                          * Greater London, England, United Kingdom · On-site
+                                          * Greater London, England, United Kingdom · On-site
+                                             * Skills: English · Strategic Thinking · International Logistics
+
+
+
+
+
+
+Education
+                                             *  USP - Universidade de São Paulo logo                                              * USP - Universidade de São Paulo
+                                             * USP - Universidade de São Paulo
+                                             * Master of Science - MS, Science, Public Health & Nutrition
+                                             * Master of Science - MS, Science, Public Health & Nutrition
+                                             * Jun 2012 - Jul 2015
+                                             * Jun 2012 - Jul 2015
+                                                * Skills: Data-driven Decision Making · Qualitative & Quantitative Research Methodologies · Operations Management · Qualitative Research · Project Management · Quantitative Research · Proposal Writing
+                                                * Skills: Data-driven Decision Making · Qualitative & Quantitative Research Methodologies · Operations Management · Qualitative Research · Project Management · Quantitative Research · Proposal Writing
+                                                * Star Nursing Agency
+                                                * Star Nursing Agency
+                                                * Star Nursing Agency
+                                                * Training , Healthcare Assistant Training
+                                                * Training , Healthcare Assistant Training
+                                                * Jan 2009 - Dec 2009
+                                                * Jan 2009 - Dec 2009
+                                                * Health Care Assistant Training -NHS Londres/ Reino Unido
+                                                * (Treinamento e Cursos para qualificação como Cuidador da Saúde para o Sistema
+                                                * Público de Saúde do Reino Unido).
+                                                * Health Care Assistant Training -NHS Londres/ Reino Unido (Treinamento e Cursos para qualificação como Cuidador da Saúde para o Sistema Público de Saúde do Reino Unido).
+                                                * Skills: English
+                                                * Skills: English
+                                                * Tower Consultancy & London University – City & Guilts – Londres/ Reino Unido.
+                                                * Tower Consultancy & London University – City & Guilts – Londres/ Reino Unido.
+                                                * Tower Consultancy & London University – City & Guilts – Londres/ Reino Unido.
+                                                * Postgraduate Degree, NVQ LEVEL 3 - Social & Health Care
+                                                * Postgraduate Degree, NVQ LEVEL 3 - Social & Health Care
+                                                * Jan 2009 - Dec 2009
+                                                * Jan 2009 - Dec 2009
+                                                * Curso de especialização em HealthCare com Comportamento Humano, Cuidados, Logística e Gerenciamento da Saúde e Social.
+                                                * Curso de especialização em HealthCare com Comportamento Humano, Cuidados, Logística e Gerenciamento da Saúde e Social.
+                                                * Skills: English
+                                                * Skills: English
+                                                *  Centro Universitário de Belo Horizonte logo                                                 * Centro Universitário de Belo Horizonte
+                                                * Centro Universitário de Belo Horizonte
+                                                * Bachelor's degree, Foods, Nutrition, and Wellness Studies, General
+                                                * Bachelor's degree, Foods, Nutrition, and Wellness Studies, General
+                                                * Jan 2003 - Jul 2008
+                                                * Jan 2003 - Jul 2008
+                                                   * Skills: Qualitative & Quantitative Research Methodologies · Qualitative Research · Quantitative Research
+
+
+https://www.cloudskillsboost.google/public_profiles/b297762d-e4f8-4847-ab17-14b6e8adc2ea
+
+Certifications 
+
+
+
+
+ Google Cloud Skills Boost 
+
+Apply your skills in Google Cloud console
+Alexandre Mourão
+Member since 2023
+  
+
+Introduction to Vertex AI StudioEarned Jun 21, 2023 EDT
+  
+
+Create Image Captioning ModelsEarned Jun 21, 2023 EDT
+  
+
+Transformer Models and BERT ModelEarned Jun 21, 2023 EDT
+  
+
+Attention MechanismEarned Jun 20, 2023 EDT
+  
+
+Encoder-Decoder ArchitectureEarned Jun 20, 2023 EDT
+  
+
+Introduction to Image GenerationEarned Jun 20, 2023 EDT
+  
+
+Generative AI FundamentalsEarned Jun 20, 2023 EDT
+  
+
+Introduction to Responsible AIEarned Jun 19, 2023 EDT
+  
+
+Introduction to Large Language ModelsEarned Jun 19, 2023 EDT
+  
+
+Introduction to Generative AIEarned Jun 19, 2023 EDT
+Skills
+AllIndustry KnowledgeInterpersonal SkillsLanguagesOther Skills
+                                                   * Operations Management
+                                                   * Operations Management
+                                                   *  Company logo                                                       * 4 experiences across MyGPT Solutions and 3 other companies
+                                                      * 4 experiences across MyGPT Solutions and 3 other companies
+                                                      *  Company logo                                                          * USP - Universidade de São Paulo
+                                                         * USP - Universidade de São Paulo
+                                                         * Introduction to Generative AI Studio
+                                                         * Introduction to Generative AI Studio
+                                                         * Show all 5 details
+                                                         * Data-driven Decision Making
+                                                         * Data-driven Decision Making
+                                                         *  Company logo                                                             * 4 experiences across MyGPT Solutions and 3 other companies
+                                                            * 4 experiences across MyGPT Solutions and 3 other companies
+                                                            *  Company logo                                                                * USP - Universidade de São Paulo
+                                                               * USP - Universidade de São Paulo
+                                                               * Introduction to Generative AI Studio
+                                                               * Introduction to Generative AI Studio
+                                                               * Show all 5 details
+                                                               * AI Product Management
+                                                               * AI Product Management
+                                                               *  Company logo                                                                   * 3 experiences across MyGPT Solutions and 2 other companies
+                                                                  * 3 experiences across MyGPT Solutions and 2 other companies
+                                                                  * Introduction to Generative AI Studio
+                                                                  * Introduction to Generative AI Studio
+                                                                  * SaaS Development
+                                                                  * SaaS Development
+                                                                  *  Company logo                                                                      * 3 experiences across MyGPT Solutions and 2 other companies
+                                                                     * 3 experiences across MyGPT Solutions and 2 other companies
+                                                                     * Introduction to Generative AI Studio
+                                                                     * Introduction to Generative AI Studio
+                                                                     * 1 endorsement
+                                                                     * 1 endorsement
+                                                                     * Business Intelligence
+                                                                     * Business Intelligence
+                                                                     *  Company logo                                                                         * 3 experiences across MyGPT Solutions and 2 other companies
+                                                                        * 3 experiences across MyGPT Solutions and 2 other companies
+                                                                        * Introduction to Generative AI Studio
+                                                                        * Introduction to Generative AI Studio
+                                                                        * Workflow Optimization
+                                                                        * Workflow Optimization
+                                                                        *  Company logo                                                                            * Generative AI Strategist, Researcher & Consultant at MyGPT Solutions
+                                                                           * Generative AI Strategist, Researcher & Consultant at MyGPT Solutions
+                                                                           * Introduction to Generative AI Studio
+                                                                           * Introduction to Generative AI Studio
+                                                                           * AI Strategy & Implementation
+                                                                           * AI Strategy & Implementation
+                                                                           *  Company logo                                                                               * Generative AI Strategist, Researcher & Consultant at MyGPT Solutions
+                                                                              * Generative AI Strategist, Researcher & Consultant at MyGPT Solutions
+                                                                              * Introduction to Generative AI Studio
+                                                                              * Introduction to Generative AI Studio
+                                                                              * Quantitative Research
+                                                                              * Quantitative Research
+                                                                              * Nutritionist & Researcher at Pesquisador Alexandre Mourão
+                                                                              * Nutritionist & Researcher at Pesquisador Alexandre Mourão
+                                                                              *  Company logo                                                                                  * 2 educational experiences at USP - Universidade de São Paulo and 1 other school
+                                                                                 * 2 educational experiences at USP - Universidade de São Paulo and 1 other school
+                                                                                 * Qualitative Research
+                                                                                 * Qualitative Research
+                                                                                 * Nutritionist & Researcher at Pesquisador Alexandre Mourão
+                                                                                 * Nutritionist & Researcher at Pesquisador Alexandre Mourão
+                                                                                 *  Company logo                                                                                     * 2 educational experiences at USP - Universidade de São Paulo and 1 other school
+                                                                                    * 2 educational experiences at USP - Universidade de São Paulo and 1 other school
+                                                                                    * Qualitative & Quantitative Research Methodologies
+                                                                                    * Qualitative & Quantitative Research Methodologies
+                                                                                    * Nutritionist & Researcher at Pesquisador Alexandre Mourão
+                                                                                    * Nutritionist & Researcher at Pesquisador Alexandre Mourão
+                                                                                    *  Company logo                                                                                        * 2 educational experiences at USP - Universidade de São Paulo and 1 other school
+                                                                                       * 2 educational experiences at USP - Universidade de São Paulo and 1 other school
+                                                                                       * Proposal Writing
+                                                                                       * Proposal Writing
+                                                                                       * 7 experiences across Public Health and Technology Startup and 6 other companies
+                                                                                       * 7 experiences across Public Health and Technology Startup and 6 other companies
+                                                                                       *  Company logo                                                                                           * USP - Universidade de São Paulo
+                                                                                          * USP - Universidade de São Paulo
+                                                                                          * Customer Service
+                                                                                          * Customer Service
+                                                                                          * 5 experiences across Pesquisador Alexandre Mourão and 4 other companies
+                                                                                          * 5 experiences across Pesquisador Alexandre Mourão and 4 other companies
+                                                                                          * Business Insights
+                                                                                          * Business Insights
+                                                                                          * 5 experiences across Public Health and Technology Startup and 4 other companies
+                                                                                          * 5 experiences across Public Health and Technology Startup and 4 other companies
+                                                                                          * Production
+                                                                                          * Production
+                                                                                          * Executive Producer at Espaço Dona Regina
+                                                                                          * Executive Producer at Espaço Dona Regina
+                                                                                          * Event Management
+                                                                                          * Event Management
+                                                                                          * Executive Producer at Espaço Dona Regina
+                                                                                          * Executive Producer at Espaço Dona Regina
+                                                                                          * Event Production
+                                                                                          * Event Production
+                                                                                          * Executive Producer at Espaço Dona Regina
+                                                                                          * Executive Producer at Espaço Dona Regina
+                                                                                          * Marketing Strategy
+                                                                                          * Marketing Strategy
+                                                                                          * 6 experiences across Pesquisador Alexandre Mourão and 5 other companies
+                                                                                          * 6 experiences across Pesquisador Alexandre Mourão and 5 other companies
+                                                                                          * Project Coordination
+                                                                                          * Project Coordination
+                                                                                          * 9 experiences across Pesquisador Alexandre Mourão and 8 other companies
+                                                                                          * 9 experiences across Pesquisador Alexandre Mourão and 8 other companies
+                                                                                          * Workflow Management
+                                                                                          * Workflow Management
+                                                                                          * 10 experiences across Pesquisador Alexandre Mourão and 9 other companies
+                                                                                          * 10 experiences across Pesquisador Alexandre Mourão and 9 other companies
+                                                                                          * Negotiation
+                                                                                          * Negotiation
+                                                                                          * Executive Producer at Espaço Dona Regina
+                                                                                          * Executive Producer at Espaço Dona Regina
+                                                                                          * Cost Reduction
+                                                                                          * Cost Reduction
+                                                                                          * 6 experiences across Pesquisador Alexandre Mourão and 5 other companies
+                                                                                          * 6 experiences across Pesquisador Alexandre Mourão and 5 other companies
+                                                                                          * Mentorship
+                                                                                          * Mentorship
+                                                                                          * Executive Producer at Espaço Dona Regina
+                                                                                          * Executive Producer at Espaço Dona Regina
+                                                                                          * Client Collaboration
+                                                                                          * Client Collaboration
+                                                                                          * Executive Producer at Espaço Dona Regina
+                                                                                          * Executive Producer at Espaço Dona Regina
+                                                                                          * Attention to Detail
+                                                                                          * Attention to Detail
+                                                                                          * Executive Producer at Espaço Dona Regina
+                                                                                          * Executive Producer at Espaço Dona Regina
+                                                                                          * Quality Assurance
+                                                                                          * Quality Assurance
+                                                                                          * 7 experiences across Pesquisador Alexandre Mourão and 6 other companies
+                                                                                          * 7 experiences across Pesquisador Alexandre Mourão and 6 other companies
+                                                                                          * Problem Solving
+                                                                                          * Problem Solving
+                                                                                          * 2 experiences across Espaço Dona Regina and 1 other company
+                                                                                          * 2 experiences across Espaço Dona Regina and 1 other company
+                                                                                          * Community Engagement
+                                                                                          * Community Engagement
+                                                                                          * 3 experiences across Pesquisador Alexandre Mourão and 2 other companies
+                                                                                          * 3 experiences across Pesquisador Alexandre Mourão and 2 other companies
+                                                                                          * Leadership
+                                                                                          * Leadership
+                                                                                          * 9 experiences across Pesquisador Alexandre Mourão and 8 other companies
+                                                                                          * 9 experiences across Pesquisador Alexandre Mourão and 8 other companies
+                                                                                          * Team Management
+                                                                                          * Team Management
+                                                                                          * 4 experiences across Public Health and Technology Startup and 3 other companies
+                                                                                          * 4 experiences across Public Health and Technology Startup and 3 other companies
+                                                                                          * Strategic Planning
+                                                                                          * Strategic Planning
+                                                                                          * 2 experiences across Pesquisador Alexandre Mourão and 1 other company
+                                                                                          * 2 experiences across Pesquisador Alexandre Mourão and 1 other company
+                                                                                          * Strategic Partnerships
+                                                                                          * Strategic Partnerships
+                                                                                          * 9 experiences across Pesquisador Alexandre Mourão and 8 other companies
+                                                                                          * 9 experiences across Pesquisador Alexandre Mourão and 8 other companies
+                                                                                          * Strategic Thinking
+                                                                                          * Strategic Thinking
+                                                                                          * 5 experiences across Pesquisador Alexandre Mourão and 4 other companies
+                                                                                          * 5 experiences across Pesquisador Alexandre Mourão and 4 other companies
+                                                                                          * Logistics Management
+                                                                                          * Logistics Management
+                                                                                          * 5 experiences across Pesquisador Alexandre Mourão and 4 other companies
+                                                                                          * 5 experiences across Pesquisador Alexandre Mourão and 4 other companies
+                                                                                          * International Logistics
+                                                                                          * International Logistics
+                                                                                          * 3 experiences across Pesquisador Alexandre Mourão and 2 other companies
+                                                                                          * 3 experiences across Pesquisador Alexandre Mourão and 2 other companies
+                                                                                          * Business Development
+                                                                                          * Business Development
+                                                                                          * 5 experiences across Pesquisador Alexandre Mourão and 4 other companies
+                                                                                          * 5 experiences across Pesquisador Alexandre Mourão and 4 other companies
+                                                                                          * Partner Relationship Management
+                                                                                          * Partner Relationship Management
+                                                                                          * 4 experiences across Pesquisador Alexandre Mourão and 3 other companies
+                                                                                          * 4 experiences across Pesquisador Alexandre Mourão and 3 other companies
+                                                                                          * Market Research
+                                                                                          * Market Research
+                                                                                          * 2 experiences across Public Health and Technology Startup and 1 other company
+                                                                                          * 2 experiences across Public Health and Technology Startup and 1 other company
+                                                                                          * Competitive Analysis
+                                                                                          * Competitive Analysis
+                                                                                          * Office Head at Public Health and Technology Startup
+                                                                                          * Office Head at Public Health and Technology Startup
+                                                                                          * Relationship Building
+                                                                                          * Relationship Building
+                                                                                          * Office Head at Public Health and Technology Startup
+                                                                                          * Office Head at Public Health and Technology Startup
+                                                                                          * Project Management
+                                                                                          * Project Management
+                                                                                          *  Company logo                                                                                              * 6 experiences across MyGPT Solutions and 5 other companies
+                                                                                             * 6 experiences across MyGPT Solutions and 5 other companies
+                                                                                             *  Company logo                                                                                                 * USP - Universidade de São Paulo
+                                                                                                * USP - Universidade de São Paulo
+                                                                                                * Introduction to Generative AI Studio
+                                                                                                * Introduction to Generative AI Studio
+                                                                                                * Regulatory Compliance
+                                                                                                * Regulatory Compliance
+                                                                                                * Office Head at Public Health and Technology Startup
+                                                                                                * Office Head at Public Health and Technology Startup
+                                                                                                * Financial and Legal Collaboration
+                                                                                                * Financial and Legal Collaboration
+                                                                                                * Office Head at Public Health and Technology Startup
+                                                                                                * Office Head at Public Health and Technology Startup
+                                                                                                * English
+                                                                                                * English
+                                                                                                * 5 experiences across Pesquisador Alexandre Mourão and 4 other companies
+                                                                                                * 5 experiences across Pesquisador Alexandre Mourão and 4 other companies
+                                                                                                * 2 educational experiences at Star Nursing Agency
+                                                                                                * 2 educational experiences at Star Nursing Agency
+                                                                                                * Introduction to Generative AI Studio
+                                                                                                * Introduction to Generative AI Studio
+                                                                                                * Decision-Making
+                                                                                                * Decision-Making
+                                                                                                * 5 experiences across Pesquisador Alexandre Mourão and 4 other companies
+                                                                                                * 5 experiences across Pesquisador Alexandre Mourão and 4 other companies
+                                                                                                * Communication
+                                                                                                * Communication
+                                                                                                * 4 experiences across Public Health and Technology Startup and 3 other companies
+                                                                                                * 4 experiences across Public Health and Technology Startup and 3 other companies
+                                                                                                * Analytical Skills
+                                                                                                * Analytical Skills
+                                                                                                * Generative AI
+                                                                                                * Generative AI
+                                                                                                * Introduction to Generative AI Studio
+                                                                                                * Introduction to Generative AI Studio
+                                                                                                * Generative AI Studio
+                                                                                                * Generative AI Studio
+                                                                                                * Introduction to Generative AI Studio
+                                                                                                * Introduction to Generative AI Studio
+                                                                                                * Imaging Captioning Models
+                                                                                                * Imaging Captioning Models
+                                                                                                * Introduction to Generative AI Studio
+                                                                                                * Introduction to Generative AI Studio
+                                                                                                * Attention Mechanisms
+                                                                                                * Attention Mechanisms
+                                                                                                * Introduction to Generative AI Studio
+                                                                                                * Introduction to Generative AI Studio
+                                                                                                * Transformer Models and BERT Model
+                                                                                                * Transformer Models and BERT Model
+                                                                                                * Introduction to Generative AI Studio
+                                                                                                * Introduction to Generative AI Studio
+                                                                                                * Encoder-Decoder Achitecture
+                                                                                                * Encoder-Decoder Achitecture
+                                                                                                * Introduction to Generative AI Studio
+                                                                                                * Introduction to Generative AI Studio
+                                                                                                * Image Generation
+                                                                                                * Image Generation
+                                                                                                * Introduction to Generative AI Studio
+                                                                                                * Introduction to Generative AI Studio
+                                                                                                * Generative AI Fundamentals
+                                                                                                * Generative AI Fundamentals
+                                                                                                * Introduction to Generative AI Studio
+                                                                                                * Introduction to Generative AI Studio
+                                                                                                * Responsible AI
+                                                                                                * Responsible AI
+                                                                                                * Introduction to Generative AI Studio
+                                                                                                * Introduction to Generative AI Studio
+                                                                                                * Large Language Models (LLM)
+                                                                                                * Large Language Models (LLM)
+                                                                                                * Introduction to Generative AI Studio
+                                                                                                * Introduction to Generative AI Studio
+                                                                                                * Introduction to Generative AI
+                                                                                                * Introduction to Generative AI
+                                                                                                * Introduction to Generative AI Studio

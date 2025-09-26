@@ -1,0 +1,165 @@
+/* ========================================
+   VARIÁVEIS CSS - MARCILLIANO BRAND
+   ======================================== */
+
+:root {
+  /* ===== CORES PRINCIPAIS ===== */
+  --primary-blue: #1E3A8A;        /* Azul Energia - cor principal */
+  --primary-blue-light: #3B82F6;  /* Azul claro - destaques */
+  --primary-blue-dark: #1E40AF;   /* Azul escuro - hover */
+  
+  /* ===== CORES SECUNDÁRIAS ===== */
+  --secondary-black: #1F2937;     /* Preto elegante */
+  --secondary-gray: #6B7280;      /* Cinza textos */
+  --secondary-gray-light: #9CA3AF; /* Cinza claro */
+  --secondary-white: #FFFFFF;     /* Branco puro */
+  
+  /* ===== CORES DE SUCESSO ===== */
+  --success-green: #10B981;       /* Verde sucesso */
+  --success-green-light: #34D399; /* Verde claro */
+  
+  /* ===== CORES DE ALERTA ===== */
+  --warning-orange: #F59E0B;      /* Laranja alerta */
+  --warning-orange-light: #FBBF24; /* Laranja claro */
+  
+  /* ===== CORES DE ERRO ===== */
+  --error-red: #EF4444;           /* Vermelho erro */
+  --error-red-light: #F87171;     /* Vermelho claro */
+  
+  /* ===== GRADIENTES ===== */
+  --gradient-primary: linear-gradient(135deg, var(--primary-blue) 0%, var(--primary-blue-light) 100%);
+  --gradient-secondary: linear-gradient(135deg, var(--secondary-black) 0%, var(--primary-blue) 100%);
+  --gradient-energy: linear-gradient(135deg, #1E3A8A 0%, #3B82F6 50%, #60A5FA 100%);
+  
+  /* ===== TIPOGRAFIA ===== */
+  --font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-size-xs: 0.75rem;        /* 12px */
+  --font-size-sm: 0.875rem;       /* 14px */
+  --font-size-base: 1rem;         /* 16px */
+  --font-size-lg: 1.125rem;       /* 18px */
+  --font-size-xl: 1.25rem;        /* 20px */
+  --font-size-2xl: 1.5rem;        /* 24px */
+  --font-size-3xl: 1.875rem;      /* 30px */
+  --font-size-4xl: 2.25rem;       /* 36px */
+  --font-size-5xl: 3rem;          /* 48px */
+  --font-size-6xl: 3.75rem;       /* 60px */
+  
+  /* ===== PESOS DE FONTE ===== */
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-extrabold: 800;
+  
+  /* ===== ESPAÇAMENTOS ===== */
+  --spacing-xs: 0.25rem;          /* 4px */
+  --spacing-sm: 0.5rem;           /* 8px */
+  --spacing-md: 1rem;             /* 16px */
+  --spacing-lg: 1.5rem;           /* 24px */
+  --spacing-xl: 2rem;             /* 32px */
+  --spacing-2xl: 3rem;            /* 48px */
+  --spacing-3xl: 4rem;            /* 64px */
+  --spacing-4xl: 6rem;            /* 96px */
+  
+  /* ===== BORDAS ===== */
+  --border-radius-sm: 0.25rem;    /* 4px */
+  --border-radius-md: 0.5rem;     /* 8px */
+  --border-radius-lg: 0.75rem;    /* 12px */
+  --border-radius-xl: 1rem;       /* 16px */
+  --border-radius-2xl: 1.5rem;    /* 24px */
+  --border-radius-full: 9999px;   /* Circular */
+  
+  /* ===== SOMBRAS ===== */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  --shadow-2xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  
+  /* ===== SOMBRAS COLORIDAS ===== */
+  --shadow-blue: 0 10px 15px -3px rgba(30, 58, 138, 0.1), 0 4px 6px -2px rgba(30, 58, 138, 0.05);
+  --shadow-blue-lg: 0 20px 25px -5px rgba(30, 58, 138, 0.1), 0 10px 10px -5px rgba(30, 58, 138, 0.04);
+  
+  /* ===== TRANSIÇÕES ===== */
+  --transition-fast: 0.15s ease-in-out;
+  --transition-normal: 0.3s ease-in-out;
+  --transition-slow: 0.5s ease-in-out;
+  
+  /* ===== Z-INDEX ===== */
+  --z-dropdown: 1000;
+  --z-sticky: 1020;
+  --z-fixed: 1030;
+  --z-modal-backdrop: 1040;
+  --z-modal: 1050;
+  --z-popover: 1060;
+  --z-tooltip: 1070;
+  
+  /* ===== BREAKPOINTS ===== */
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
+  --breakpoint-2xl: 1536px;
+  
+  /* ===== CONTAINERS ===== */
+  --container-sm: 640px;
+  --container-md: 768px;
+  --container-lg: 1024px;
+  --container-xl: 1280px;
+  --container-2xl: 1536px;
+  
+  /* ===== LAYOUT ===== */
+  --header-height: 4rem;          /* 64px */
+  --sidebar-width: 16rem;         /* 256px */
+  --sidebar-width-collapsed: 4rem; /* 64px */
+  
+  /* ===== COMPONENTES ===== */
+  --button-height: 2.5rem;        /* 40px */
+  --input-height: 2.5rem;         /* 40px */
+  --card-padding: 1.5rem;         /* 24px */
+  --section-padding: 4rem;        /* 64px */
+  
+  /* ===== ANIMAÇÕES ===== */
+  --animation-bounce: bounce 1s infinite;
+  --animation-pulse: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  --animation-spin: spin 1s linear infinite;
+  --animation-ping: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+  
+  /* ===== ENERGIA 220 ESPECÍFICO ===== */
+  --energy-220-color: var(--primary-blue);
+  --energy-220-gradient: var(--gradient-energy);
+  --energy-220-shadow: var(--shadow-blue-lg);
+  --energy-220-font: var(--font-weight-bold);
+}
+
+/* ===== DARK MODE (FUTURO) ===== */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --secondary-white: #1F2937;
+    --secondary-black: #FFFFFF;
+    --secondary-gray: #9CA3AF;
+    --secondary-gray-light: #6B7280;
+  }
+}
+
+/* ===== UTILITÁRIOS ===== */
+.text-energy-220 {
+  background: var(--gradient-energy);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: var(--font-weight-bold);
+}
+
+.bg-energy-220 {
+  background: var(--gradient-energy);
+}
+
+.shadow-energy-220 {
+  box-shadow: var(--shadow-blue-lg);
+}
+
+.border-energy-220 {
+  border-color: var(--primary-blue);
+}

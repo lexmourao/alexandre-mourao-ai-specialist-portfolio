@@ -1,0 +1,1367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Alexandre Mourão - AI Specialist Portfolio showcasing AI-powered content creation and workflow automation">
+    <meta name="keywords" content="AI Specialist, AI Content Creation, MidJourney, Runway, ElevenLabs, VEED, Visla, Cursor, ChatGPT">
+    <meta name="author" content="Alexandre Mourão">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Alexandre Mourão - AI Specialist Portfolio">
+    <meta property="og:description" content="AI-powered content creation and workflow automation">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    
+    <title>Alexandre Mourão - AI Specialist Portfolio | GitHub Pages</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Advanced Navigation System -->
+    <nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo" aria-label="Alexandre Mourão - AI Specialist">Alexandre Mourão</a>
+            <ul class="nav-menu" id="nav-menu" role="menubar">
+                <li role="none"><a href="#home" class="nav-link active" role="menuitem" aria-current="page">Home</a></li>
+                <li role="none"><a href="#about" class="nav-link" role="menuitem">About This Portfolio</a></li>
+                <li role="none"><a href="#tools" class="nav-link" role="menuitem">Tools & Tech</a></li>
+                <li role="none"><a href="#projects" class="nav-link" role="menuitem">Projects</a></li>
+                <li role="none" class="nav-dropdown">
+                    <a href="#gallery" class="nav-link" role="menuitem">Media Gallery</a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li role="none"><a href="#gallery" class="dropdown-link" role="menuitem" onclick="scrollToGallerySection('images')">🖼️ AI-Generated Images</a></li>
+                        <li role="none"><a href="#gallery" class="dropdown-link" role="menuitem" onclick="scrollToGallerySection('avatars')">👤 AI-Generated Avatars</a></li>
+                        <li role="none"><a href="#gallery" class="dropdown-link" role="menuitem" onclick="scrollToGallerySection('videos')">🎥 AI-Generated Videos</a></li>
+                        <li role="none"><a href="#gallery" class="dropdown-link" role="menuitem" onclick="scrollToGallerySection('text')">📄 AI-Generated Text Content</a></li>
+                        <li role="none"><a href="#gallery" class="dropdown-link" role="menuitem" onclick="scrollToGallerySection('audio')">🎵 AI-Generated Audio</a></li>
+                        <li role="none"><a href="#gallery" class="dropdown-link" role="menuitem" onclick="scrollToGallerySection('development')">💻 Development Process Documentation</a></li>
+                    </ul>
+                </li>
+                <li role="none"><a href="#technical-architecture" class="nav-link" role="menuitem">Technical Architecture</a></li>
+                <li role="none"><a href="#contact" class="nav-link" role="menuitem">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode" title="Toggle theme">
+                    <span class="theme-icon" aria-hidden="true">🌙</span>
+                </button>
+                <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Modern Hero Section -->
+    <section id="home" class="hero-section" aria-labelledby="hero-title">
+        <div class="hero-content">
+            <div class="hero-avatar">
+                <img src="Resume_CV_Portfolio_Cover Letter_AI Specialist/alexandre frame picture 01.png" alt="Alexandre Mourão - AI Specialist" class="hero-photo">
+            </div>
+            <h1 id="hero-title" class="hero-title">Alexandre Mourão</h1>
+            <p class="hero-subtitle">AI Specialist Portfolio</p>
+            <p class="hero-description">AI-powered content creation and workflow automation</p>
+            <a href="#projects" class="hero-cta" aria-label="Explore Alexandre's AI projects and work">
+                <span>Explore My Work</span>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                </svg>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Portfolio Section -->
+    <section id="about" class="section about-portfolio">
+        <div class="container">
+            <h2 class="section-title">About This Portfolio</h2>
+            <div class="about-content">
+                <p>As a Researcher and AI Specialist, I create AI solutions that bridge academic rigor with business results. This portfolio demonstrates my track record of 405+ user sessions across 22+ deployed AI solutions, with production-grade implementations spanning healthcare, education, and business transformation.</p>
+                <p>My expertise combines M.S. research methodology with hands-on technical specialization in RAG & AI systems, enterprise workflow automation, and multi-modal AI architecture. I deliver measurable business impact through evidence-based AI strategy, full-stack implementation, and comprehensive AI content creation including text generation, video production, audio synthesis, and automated workflow orchestration—all achieved through vibe coding with Cursor IDE.</p>
+            </div>
+            
+            <div class="portfolio-navigation">
+                <h3>Explore My Portfolio</h3>
+                <div class="nav-grid">
+                    <a href="#tools" class="nav-card">
+                        <div class="nav-icon">🛠️</div>
+                        <h4>Tools & Technology</h4>
+                        <p>Python, APIs, n8n, AI Platforms</p>
+                    </a>
+                    <a href="#projects" class="nav-card">
+                        <div class="nav-icon">🚀</div>
+                        <h4>Projects & Demos</h4>
+                        <p>Live AI implementations & MVPs</p>
+                    </a>
+                    <a href="#gallery" class="nav-card" onclick="openMediaGalleryModal(); return false;">
+                        <div class="nav-icon">🎨</div>
+                        <h4>Media Gallery</h4>
+                        <p>Images • Avatars • Videos • Text • Audio • Development</p>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="portfolio-stats">
+                <div class="stat-item">
+                    <h3>22+</h3>
+                    <p>Deployed AI Solutions</p>
+                </div>
+                <div class="stat-item">
+                    <h3>405+</h3>
+                    <p>User Sessions</p>
+                </div>
+                <div class="stat-item">
+                    <h3>100+</h3>
+                    <p>Active Users (Top Tool)</p>
+                </div>
+                <div class="stat-item">
+                    <h3>40%</h3>
+                    <p>Faster Implementation</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tools & Tech Section -->
+    <section id="tools" class="section tools-section">
+        <div class="container">
+            <h2 class="section-title">Tools & Technology</h2>
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <div class="tool-icon">🎨</div>
+                    <h3>MidJourney</h3>
+                    <p>AI image creation and visual content generation for marketing materials and creative projects.</p>
+                </div>
+                <div class="tool-card">
+                    <div class="tool-icon">🎬</div>
+                    <h3>Runway</h3>
+                    <p>AI video editing and generation for dynamic content creation and post-production workflows.</p>
+                </div>
+                <div class="tool-card">
+                    <div class="tool-icon">🎭</div>
+                    <h3>SORA</h3>
+                    <p>Experimental AI video generation for cutting-edge content creation and innovation.</p>
+                </div>
+                <div class="tool-card">
+                    <div class="tool-icon">🎤</div>
+                    <h3>ElevenLabs</h3>
+                    <p>AI voice generation and text-to-speech for audio content and voiceovers.</p>
+                </div>
+                <div class="tool-card">
+                    <div class="tool-icon">✂️</div>
+                    <h3>VEED</h3>
+                    <p>AI-powered video editing with automatic subtitles and content optimization.</p>
+                </div>
+                <div class="tool-card">
+                    <div class="tool-icon">📝</div>
+                    <h3>Visla</h3>
+                    <p>AI-powered video scripting and content planning for structured video production.</p>
+                </div>
+                <div class="tool-card">
+                    <div class="tool-icon">💻</div>
+                    <h3>Cursor</h3>
+                    <p>AI-assisted coding and automation for efficient development workflows.</p>
+                </div>
+                <div class="tool-card">
+                    <div class="tool-icon">🤖</div>
+                    <h3>ChatGPT</h3>
+                    <p>Prompt engineering and workflow orchestration for complex AI task automation.</p>
+                </div>
+                <div class="tool-card">
+                    <div class="tool-icon">🎬</div>
+                    <h3>Adobe Premiere Pro</h3>
+                    <p>Professional video editing with AI-enhanced post-production for web series and content creation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="section-title">Projects & Demos</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="Portfolio Material of Alexandre Mourao to build the HTML Portfolio for the AI Specialist Job Interview/ARBO Portfolio Material Alexandre /ARBO Portfolio Material - Images done with Midjourney, Runway, ElevenLabs, VEED and Visla/ARBO - Logo Image.png" alt="ARBO AI Telehealth Platform" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    </div>
+                    <div class="project-content">
+                        <h3>ARBO AI Healthcare Platform</h3>
+                        <p>AI-powered healthcare platform connecting the whole healthcare ecosystem. Content creation focused on branding, Instagram marketing, go-to-market strategy, and comprehensive marketing content using MidJourney, Runway, and ElevenLabs.</p>
+                        <div class="project-tools">
+                            <span class="tool-tag">MidJourney</span>
+                            <span class="tool-tag">Runway</span>
+                            <span class="tool-tag">ElevenLabs</span>
+                            <span class="tool-tag">VEED</span>
+                            <span class="tool-tag">Visla</span>
+                        </div>
+                        <div class="project-buttons three-buttons">
+                            <button class="project-link" onclick="scrollToArboVideos()">View ARBO Videos</button>
+                            <button class="project-link" onclick="scrollToArboImages()">View ARBO Images</button>
+                            <button class="project-link" onclick="scrollToArboAvatars()">View ARBO Avatars</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="Portfolio Material of Alexandre Mourao to build the HTML Portfolio for the AI Specialist Job Interview/Marciliano Coelo HTML Portfolio Material Alexandre/delivery_marciliano/local_presentation/assets/images/marciliano_foto.jpg" alt="Marciliano Digital Strategy" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    </div>
+                    <div class="project-content">
+                        <h3>Marciliano Digital Product Strategy</h3>
+                        <p>Comprehensive digital product strategy with 4,320% ROI projection, R$ 648K annual revenue, complete market analysis, and professional HTML presentation system with client and stakeholder views.</p>
+                        <div class="project-tools">
+                            <span class="tool-tag">Whisper AI</span>
+                            <span class="tool-tag">ChatGPT</span>
+                            <span class="tool-tag">HTML/CSS</span>
+                            <span class="tool-tag">Strategy</span>
+                        </div>
+                        <div class="project-buttons">
+                            <button class="project-link" onclick="openProjectModal('marciliano')">View Project Details</button>
+                            <button class="project-link instagram-link" onclick="window.open('https://www.instagram.com/marcilianocoelho/', '_blank')">
+                                <span class="instagram-icon">📷</span> View Instagram
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="Portfolio Material of Alexandre Mourao to build the HTML Portfolio for the AI Specialist Job Interview/Mary Kay with AI and Shark Portfolio Material Alexandre /PHOTO-2025-09-24-18-50-24.jpg" alt="Mary Kay AI Integration">
+                    </div>
+                    <div class="project-content">
+                        <h3>Mary Kay AI Integration & Shark Business</h3>
+                        <p>Comprehensive AI strategy combining avatar generation for Mary Kay representatives, CRM integration and automation, professional presentation system, and enterprise client engagement with market exploration and business development.</p>
+                        <div class="project-tools">
+                            <span class="tool-tag">DALL-E 3</span>
+                            <span class="tool-tag">Shark CRM</span>
+                            <span class="tool-tag">Automation</span>
+                            <span class="tool-tag">Enterprise</span>
+                        </div>
+                        <div class="project-buttons">
+                            <button class="project-link" onclick="openProjectModal('marykay')">View Strategy Presentation</button>
+                            <button class="project-link" onclick="scrollToMaryKayAvatars()">View AI Avatars</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="Portfolio Material of Alexandre Mourao to build the HTML Portfolio for the AI Specialist Job Interview/Content Creation with OTW for Shark Portfolio Material Alexandre/banner.png" alt="Shark Business Logo" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="project-placeholder" style="display: none;">
+                            <span class="project-icon">🦈</span>
+                            <p>Shark Business</p>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Shark/OTW Content Creation & Automation</h3>
+                        <p>Complete video content series production (Bloco 1, 3, 4) with AI voice generation for sales content, content automation workflows, and sales optimization strategies.</p>
+                        <div class="project-tools">
+                            <span class="tool-tag">ElevenLabs</span>
+                            <span class="tool-tag">VEED</span>
+                            <span class="tool-tag">ChatGPT</span>
+                            <span class="tool-tag">Automation</span>
+                        </div>
+                        <div class="project-buttons">
+                            <button class="project-link" onclick="scrollToVideoGallery()">View Shark Videos</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="Portfolio Material of Alexandre Mourao to build the HTML Portfolio for the AI Specialist Job Interview/Uma Dose De Nos Portfolio Material Alexandre/WhatsApp Image 2025-09-10 at 23.43.46.jpeg" alt="Uma Dose De Nos Web Series Banner" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="project-placeholder" style="display: none;">
+                            <span class="project-icon">🎥</span>
+                            <p>Web Series Production</p>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Uma Dose De Nos Web Series</h3>
+                        <p>Complete web series production with AI-enhanced video editing in Adobe Premiere Pro, featuring both EP01 and EP02 episodes. Professional post-production using AI tools for color correction, audio enhancement, and visual effects.</p>
+                        <div class="project-tools">
+                            <span class="tool-tag">Adobe Premiere Pro</span>
+                            <span class="tool-tag">AI Video Editing</span>
+                            <span class="tool-tag">VEED</span>
+                            <span class="tool-tag">Web Series</span>
+                            <span class="tool-tag">Post-Production</span>
+                        </div>
+                        <div class="project-buttons">
+                            <button class="project-link" onclick="scrollToUmaDoseVideos()">View Web Series Videos</button>
+                            <button class="project-link instagram-link" onclick="window.open('https://www.instagram.com/umadosedenos.serie/', '_blank')">
+                                <span class="instagram-icon">📷</span> View Instagram
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="Portfolio Material of Alexandre Mourao to build the HTML Portfolio for the AI Specialist Job Interview/MyGPT Solution Portfolio/mygptsolutions.logo4.png" alt="MyGPT Solutions Logo" class="project-logo">
+                    </div>
+                    <div class="project-content">
+                        <h3>MyGPTs AI Solutions Portfolio</h3>
+                        <p>22+ production-grade AI solutions including RAG systems, Python automation, and enterprise prototypes. Comprehensive portfolio showcasing AI specialist expertise.</p>
+                        <div class="project-tools">
+                            <span class="tool-tag">MyGPTs</span>
+                            <span class="tool-tag">RAG</span>
+                            <span class="tool-tag">Python</span>
+                            <span class="tool-tag">Prototype</span>
+                            <span class="tool-tag">Vibe Coding</span>
+                        </div>
+                        <div class="project-buttons">
+                            <button class="project-link" onclick="openMyGPTsModal()">View MyGPTs</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Media Gallery Section -->
+    <section id="gallery" class="gallery-section">
+        <div class="container">
+            <h2 class="section-title">Media Gallery</h2>
+            
+            <!-- Images Gallery -->
+            <div class="gallery-category">
+                <h3>AI-Generated Images</h3>
+                <div class="images-grid">
+                    <div class="gallery-item" onclick="openImageModal('Portfolio Material of Alexandre Mourao to build the HTML Portfolio for the AI Specialist Job Interview/ARBO Portfolio Material Alexandre /ARBO Portfolio Material - Images done with Midjourney, Runway, ElevenLabs, VEED and Visla/ARBO - Logo Image.png', 'ARBO Telehealth Platform Logo')">
+                        <img src="Portfolio Material of Alexandre Mourao to build the HTML Portfolio for the AI Specialist Job Interview/ARBO Portfolio Material Alexandre /ARBO Portfolio Material - Images done with Midjourney, Runway, ElevenLabs, VEED and Visla/ARBO - Logo Image.png" alt="ARBO Logo" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="image-placeholder" style="display: none;">
+                            <div class="placeholder-icon">🏥</div>
+                            <p>ARBO Logo</p>
+                        </div>
+                        <div class="gallery-overlay">
+                            <p>ARBO Telehealth Platform Logo</p>
+                            <div class="click-hint">Click to enlarge</div>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="Portfolio Material of Alexandre Mourao to build the HTML Portfolio for the AI Specialist Job Interview/ARBO Portfolio Material Alexandre /ARBO Portfolio Material - Images done with Midjourney, Runway, ElevenLabs, VEED and Visla/ARBO - Imagem - Capa - Patient.png" alt="ARBO Patient Interface" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="gallery-overlay">
+                            <p>ARBO Patient Interface</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="Portfolio Material of Alexandre Mourao to build the HTML Portfolio for the AI Specialist Job Interview/ARBO Portfolio Material Alexandre /ARBO Portfolio Material - Images done with Midjourney, Runway, ElevenLabs, VEED and Visla/ARBO - Imagem - profissionais capa.png" alt="ARBO Professional Interface" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="image-placeholder" style="display: none;">
+                            <div class="placeholder-icon">👨‍⚕️</div>
+                            <p>ARBO Professional Interface</p>
+                        </div>
+                        <div class="gallery-overlay">
+                            <p>ARBO Professional Interface</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="Portfolio Material of Alexandre Mourao to build the HTML Portfolio for the AI Specialist Job Interview/ARBO Portfolio Material Alexandre /ARBO Portfolio Material - Images done with Midjourney, Runway, ElevenLabs, VEED and Visla/ARBO - Imagem Capa - Home.png" alt="ARBO Medical Banner" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="image-placeholder" style="display: none;">
+                            <div class="placeholder-icon">🏥</div>
+                            <p>ARBO Medical Banner</p>
+                        </div>
+                        <div class="gallery-overlay">
+                            <p>ARBO Medical Banner</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="Portfolio Material of Alexandre Mourao to build the HTML Portfolio for the AI Specialist Job Interview/ARBO Portfolio Material Alexandre /ARBO Portfolio Material - Images done with Midjourney, Runway, ElevenLabs, VEED and Visla/ARBO - Imagem 2 - professionals (2).png" alt="ARBO Professionals" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="image-placeholder" style="display: none;">
+                            <div class="placeholder-icon">👥</div>
+                            <p>ARBO Professionals</p>
+                        </div>
+                        <div class="gallery-overlay">
+                            <p>ARBO Professionals</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="Portfolio Material of Alexandre Mourao to build the HTML Portfolio for the AI Specialist Job Interview/ARBO Portfolio Material Alexandre /ARBO Portfolio Material - Images done with Midjourney, Runway, ElevenLabs, VEED and Visla/ARBO - Imagem 3 - Home.png" alt="ARBO Home Interface" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="image-placeholder" style="display: none;">
+                            <div class="placeholder-icon">🏠</div>
+                            <p>ARBO Home Interface</p>
+                        </div>
+                        <div class="gallery-overlay">
+                            <p>ARBO Home Interface</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="Portfolio Material of Alexandre Mourao to build the HTML Portfolio for the AI Specialist Job Interview/ARBO Portfolio Material Alexandre /ARBO Portfolio Material - Images done with Midjourney, Runway, ElevenLabs, VEED and Visla/ARBO - Image 02.png" alt="ARBO Image 02" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="image-placeholder" style="display: none;">
+                            <div class="placeholder-icon">📱</div>
+                            <p>ARBO Image 02</p>
+                        </div>
+                        <div class="gallery-overlay">
+                            <p>ARBO Image 02</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="Portfolio Material of Alexandre Mourao to build the HTML Portfolio for the AI Specialist Job Interview/ARBO Portfolio Material Alexandre /ARBO Portfolio Material - Images done with Midjourney, Runway, ElevenLabs, VEED and Visla/ARBO - Imagem Capa - Purpose.png" alt="ARBO Purpose" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="image-placeholder" style="display: none;">
+                            <div class="placeholder-icon">🎯</div>
+                            <p>ARBO Purpose</p>
+                        </div>
+                        <div class="gallery-overlay">
+                            <p>ARBO Purpose</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="Portfolio Material of Alexandre Mourao to build the HTML Portfolio for the AI Specialist Job Interview/ARBO Portfolio Material Alexandre /ARBO Portfolio Material - Images done with Midjourney, Runway, ElevenLabs, VEED and Visla/ARBO - medical-banner-with-doctor-working-laptop.jpg" alt="ARBO Medical Banner">
+                        <div class="gallery-overlay">
+                            <p>ARBO Medical Banner</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="Portfolio Material of Alexandre Mourao to build the HTML Portfolio for the AI Specialist Job Interview/ARBO Portfolio Material Alexandre /ARBO Portfolio Material - Images done with Midjourney, Runway, ElevenLabs, VEED and Visla/ARBO - Image 02.png" alt="ARBO Image 02" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="gallery-overlay">
+                            <p>ARBO Platform Interface</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="Portfolio Material of Alexandre Mourao to build the HTML Portfolio for the AI Specialist Job Interview/ARBO Portfolio Material Alexandre /ARBO Portfolio Material - Images done with Midjourney, Runway, ElevenLabs, VEED and Visla/ARBO - Imagem 1 - Professionals.png" alt="ARBO Professionals">
+                        <div class="gallery-overlay">
+                            <p>ARBO Professional Interface</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="Portfolio Material of Alexandre Mourao to build the HTML Portfolio for the AI Specialist Job Interview/ARBO Portfolio Material Alexandre /ARBO Portfolio Material - Images done with Midjourney, Runway, ElevenLabs, VEED and Visla/ARBO - Imagem 3 - Home.png" alt="ARBO Home Interface">
+                        <div class="gallery-overlay">
+                            <p>ARBO Home Interface</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- AI-Generated Avatars Gallery -->
+            <div class="gallery-category">
+                <h3>AI-Generated Avatars</h3>
+                
+                <!-- Mary Kay AI Avatars Section -->
+                <div class="avatar-section">
+                    <h4 class="avatar-section-title">Mary Kay AI Representatives</h4>
+                    <div class="images-grid">
+                        <div class="gallery-item">
+                            <img src="Portfolio Material of Alexandre Mourao to build the HTML Portfolio for the AI Specialist Job Interview/Mary Kay with AI and Shark Portfolio Material Alexandre /WhatsApp Image 2025-09-22 at 13.59.38.jpeg" alt="Mary Kay AI Avatar - Business" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="image-placeholder" style="display: none;">
+                                <div class="placeholder-icon">👩</div>
+                                <p>Mary Kay AI Avatar</p>
+                            </div>
+                            <div class="gallery-overlay">
+                                <p>Mary Kay AI Avatar - Business</p>
+                            </div>
+                        </div>
+                        <div class="gallery-item">
+                            <img src="Portfolio Material of Alexandre Mourao to build the HTML Portfolio for the AI Specialist Job Interview/Mary Kay with AI and Shark Portfolio Material Alexandre /WhatsApp Image 2025-09-22 at 13.59.39.jpeg" alt="Mary Kay AI Avatar - Executive" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="image-placeholder" style="display: none;">
+                                <div class="placeholder-icon">👩</div>
+                                <p>Mary Kay AI Avatar</p>
+                            </div>
+                            <div class="gallery-overlay">
+                                <p>Mary Kay AI Avatar - Executive</p>
+                            </div>
+                        </div>
+                        <div class="gallery-item">
+                            <img src="Portfolio Material of Alexandre Mourao to build the HTML Portfolio for the AI Specialist Job Interview/Mary Kay with AI and Shark Portfolio Material Alexandre /WhatsApp Image 2025-09-22 at 13.59.40.jpeg" alt="Mary Kay AI Avatar - Leadership" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="image-placeholder" style="display: none;">
+                                <div class="placeholder-icon">👩</div>
+                                <p>Mary Kay AI Avatar</p>
+                            </div>
+                            <div class="gallery-overlay">
+                                <p>Mary Kay AI Avatar - Leadership</p>
+                            </div>
+                        </div>
+                        <div class="gallery-item">
+                            <img src="Portfolio Material of Alexandre Mourao to build the HTML Portfolio for the AI Specialist Job Interview/Mary Kay with AI and Shark Portfolio Material Alexandre /WhatsApp Image 2025-09-22 at 13.59.41.jpeg" alt="Mary Kay AI Avatar - Corporate" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="image-placeholder" style="display: none;">
+                                <div class="placeholder-icon">👩</div>
+                                <p>Mary Kay AI Avatar</p>
+                            </div>
+                            <div class="gallery-overlay">
+                                <p>Mary Kay AI Avatar - Corporate</p>
+                            </div>
+                        </div>
+                        <div class="gallery-item">
+                            <img src="Portfolio Material of Alexandre Mourao to build the HTML Portfolio for the AI Specialist Job Interview/Mary Kay with AI and Shark Portfolio Material Alexandre /WhatsApp Image 2025-09-22 at 13.59.42.jpeg" alt="Mary Kay AI Avatar - Brand" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="image-placeholder" style="display: none;">
+                                <div class="placeholder-icon">👩</div>
+                                <p>Mary Kay AI Avatar</p>
+                            </div>
+                            <div class="gallery-overlay">
+                                <p>Mary Kay AI Avatar - Brand</p>
+                            </div>
+                        </div>
+                        <div class="gallery-item">
+                            <img src="Portfolio Material of Alexandre Mourao to build the HTML Portfolio for the AI Specialist Job Interview/Mary Kay with AI and Shark Portfolio Material Alexandre /WhatsApp Image 2025-09-22 at 13.59.43.jpeg" alt="Mary Kay AI Avatar - Marketing" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="image-placeholder" style="display: none;">
+                                <div class="placeholder-icon">👩</div>
+                                <p>Mary Kay AI Avatar</p>
+                            </div>
+                            <div class="gallery-overlay">
+                                <p>Mary Kay AI Avatar - Marketing</p>
+                            </div>
+                        </div>
+                        <div class="gallery-item">
+                            <img src="Portfolio Material of Alexandre Mourao to build the HTML Portfolio for the AI Specialist Job Interview/Mary Kay with AI and Shark Portfolio Material Alexandre /WhatsApp Image 2025-09-22 at 13.59.40 (1).jpeg" alt="Mary Kay AI Avatar - Male Executive" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="image-placeholder" style="display: none;">
+                                <div class="placeholder-icon">👨</div>
+                                <p>Mary Kay AI Avatar</p>
+                            </div>
+                            <div class="gallery-overlay">
+                                <p>Mary Kay AI Avatar - Male Executive</p>
+                            </div>
+                        </div>
+                        <div class="gallery-item">
+                            <img src="Portfolio Material of Alexandre Mourao to build the HTML Portfolio for the AI Specialist Job Interview/Mary Kay with AI and Shark Portfolio Material Alexandre /WhatsApp Image 2025-09-22 at 13.59.41 (1).jpeg" alt="Mary Kay AI Avatar - Male Professional" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="image-placeholder" style="display: none;">
+                                <div class="placeholder-icon">👨</div>
+                                <p>Mary Kay AI Avatar</p>
+                            </div>
+                            <div class="gallery-overlay">
+                                <p>Mary Kay AI Avatar - Male Professional</p>
+                            </div>
+                        </div>
+                        <div class="gallery-item">
+                            <img src="Portfolio Material of Alexandre Mourao to build the HTML Portfolio for the AI Specialist Job Interview/Mary Kay with AI and Shark Portfolio Material Alexandre /WhatsApp Image 2025-09-22 at 13.59.42 (1).jpeg" alt="Mary Kay AI Avatar - Male Business" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="image-placeholder" style="display: none;">
+                                <div class="placeholder-icon">👨</div>
+                                <p>Mary Kay AI Avatar</p>
+                            </div>
+                            <div class="gallery-overlay">
+                                <p>Mary Kay AI Avatar - Male Business</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ARBO/Shark AI Avatars Section -->
+                <div class="avatar-section">
+                    <h4 class="avatar-section-title">ARBO Healthcare AI Avatars</h4>
+                    <div class="images-grid">
+                        <div class="gallery-item">
+                            <img src="Portfolio Material of Alexandre Mourao to build the HTML Portfolio for the AI Specialist Job Interview/ARBO Portfolio Material Alexandre /WhatsApp Image 2025-06-04 at 16.39.50.jpeg" alt="ARBO AI Robot Avatar" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="image-placeholder" style="display: none;">
+                                <div class="placeholder-icon">🤖</div>
+                                <p>ARBO AI Robot Avatar</p>
+                            </div>
+                            <div class="gallery-overlay">
+                                <p>ARBO AI Robot Avatar - Healthcare Professional</p>
+                            </div>
+                        </div>
+                        <div class="gallery-item">
+                            <video controls class="gallery-video" preload="metadata" loading="lazy">
+                                <source src="Portfolio Material of Alexandre Mourao to build the HTML Portfolio for the AI Specialist Job Interview/ARBO Portfolio Material Alexandre /ARBO Portfolio Material - Video done with Midjourney, Runway, ElevenLabs, VEED and Visla/robot_test_arbo_2_motion_web.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                            <div class="gallery-overlay">
+                                <p>ARBO AI Robot Avatar - Motion Demo</p>
+                            </div>
+                        </div>
+                        <div class="gallery-item">
+                            <video controls class="gallery-video" preload="metadata" loading="lazy">
+                                <source src="Portfolio Material of Alexandre Mourao to build the HTML Portfolio for the AI Specialist Job Interview/ARBO Portfolio Material Alexandre /WhatsApp Video 2025-05-23 at 11.47.37.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                            <div class="gallery-overlay">
+                                <p>ARBO AI Robot Avatar - Green Screen Demo</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Videos Gallery -->
+            <div class="gallery-category">
+                <h3>AI-Generated Videos</h3>
+                
+                <!-- ARBO Videos Section -->
+                <div class="video-section">
+                    <h4 class="video-section-title">ARBO Healthcare Platform</h4>
+                    <div class="videos-grid">
+                        <div class="video-item horizontal">
+                            <video controls class="gallery-video">
+                                <source src="Portfolio Material of Alexandre Mourao to build the HTML Portfolio for the AI Specialist Job Interview/ARBO Portfolio Material Alexandre /ARBO Portfolio Material - Video done with Midjourney, Runway, ElevenLabs, VEED and Visla/ARBO - VIDEO -  USER EXPERIENCE - ALICE - Revolutionizing Healthcare - Introducing ARBO, an AI Platform for Healthcare Solutions (1).mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                            <div class="video-info">
+                                <h4>ARBO Alice User Experience Demo</h4>
+                            </div>
+                        </div>
+                        <div class="video-item horizontal">
+                            <video controls class="gallery-video">
+                                <source src="Portfolio Material of Alexandre Mourao to build the HTML Portfolio for the AI Specialist Job Interview/ARBO Portfolio Material Alexandre /ARBO Portfolio Material - Video done with Midjourney, Runway, ElevenLabs, VEED and Visla/ARBO - Video IAM Smart Telehealth Introduction 2.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                            <div class="video-info">
+                                <h4>ARBO Smart Telehealth Introduction</h4>
+                            </div>
+                        </div>
+                        <div class="video-item horizontal">
+                            <video controls class="gallery-video">
+                                <source src="Portfolio Material of Alexandre Mourao to build the HTML Portfolio for the AI Specialist Job Interview/ARBO Portfolio Material Alexandre /ARBO Portfolio Material - Video done with Midjourney, Runway, ElevenLabs, VEED and Visla/ARBO - Gen-3 Alpha Teste.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                            <div class="video-info">
+                                <h4>ARBO Gen-3 Alpha Test</h4>
+                            </div>
+                        </div>
+                        <div class="video-item horizontal">
+                            <video controls class="gallery-video">
+                                <source src="Portfolio Material of Alexandre Mourao to build the HTML Portfolio for the AI Specialist Job Interview/ARBO Portfolio Material Alexandre /ARBO Portfolio Material - Video done with Midjourney, Runway, ElevenLabs, VEED and Visla/ARBO - Reels Promo Video - Beta Version Launch of IAM Smart Telehealth Functionality.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                            <div class="video-info">
+                                <h4>ARBO Beta Launch Promo</h4>
+                            </div>
+                        </div>
+                        <div class="video-item horizontal">
+                            <video controls class="gallery-video">
+                                <source src="Portfolio Material of Alexandre Mourao to build the HTML Portfolio for the AI Specialist Job Interview/ARBO Portfolio Material Alexandre /ARBO Portfolio Material - Video done with Midjourney, Runway, ElevenLabs, VEED and Visla/Gen-3 Alpha 3868879567, Overhead shot A se.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                            <div class="video-info">
+                                <h4>ARBO Gen-3 Alpha Overhead Shot</h4>
+                            </div>
+                        </div>
+                        <div class="video-item horizontal">
+                            <video controls class="gallery-video">
+                                <source src="Portfolio Material of Alexandre Mourao to build the HTML Portfolio for the AI Specialist Job Interview/ARBO Portfolio Material Alexandre /ARBO Portfolio Material - Video done with Midjourney, Runway, ElevenLabs, VEED and Visla/arbo_iam_subtitles_demo_web.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                            <div class="video-info">
+                                <h4>ARBO IAM Subtitles Demo</h4>
+                            </div>
+                        </div>
+                        <div class="video-item horizontal">
+                            <video controls class="gallery-video">
+                                <source src="Portfolio Material of Alexandre Mourao to build the HTML Portfolio for the AI Specialist Job Interview/ARBO Portfolio Material Alexandre /ARBO Portfolio Material - Video done with Midjourney, Runway, ElevenLabs, VEED and Visla/arbo_extended_demo_m0026_web.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                            <div class="video-info">
+                                <h4>ARBO Extended Demo M0026</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Uma Dose De Nos Videos Section -->
+                <div class="video-section">
+                    <h4 class="video-section-title">Uma Dose De Nos Web Series</h4>
+                    <div class="videos-grid">
+                        <div class="video-item horizontal">
+                            <iframe 
+                                src="https://drive.google.com/file/d/1M8Rqqy7Yu_M8W9MM7xfb_FZDv08x78zX/preview" 
+                                class="gallery-video"
+                                allow="autoplay"
+                                allowfullscreen>
+                            </iframe>
+                            <div class="video-info">
+                                <h4>Uma Dose De Nos - EP01 (AI-Enhanced)</h4>
+                            </div>
+                        </div>
+                        <div class="video-item horizontal">
+                            <iframe 
+                                src="https://drive.google.com/file/d/1veCgsitOX2lzz377SGb_RdV49fe0gXQf/preview" 
+                                class="gallery-video"
+                                allow="autoplay"
+                                allowfullscreen>
+                            </iframe>
+                            <div class="video-info">
+                                <h4>Uma Dose De Nos - EP02 (AI-Enhanced)</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Shark/OTW Videos Section -->
+                <div class="video-section">
+                    <h4 class="video-section-title">Shark/OTW Content Creation</h4>
+                    <div class="videos-grid">
+                        <div class="video-item horizontal">
+                            <video controls class="gallery-video">
+                                <source src="Portfolio Material of Alexandre Mourao to build the HTML Portfolio for the AI Specialist Job Interview/Content Creation with OTW for Shark Portfolio Material Alexandre/Bloco 1.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                            <div class="video-info">
+                                <h4>Shark/OTW Content - Bloco 1</h4>
+                            </div>
+                        </div>
+                        <div class="video-item horizontal">
+                            <video controls class="gallery-video">
+                                <source src="Portfolio Material of Alexandre Mourao to build the HTML Portfolio for the AI Specialist Job Interview/Content Creation with OTW for Shark Portfolio Material Alexandre/Bloco 3_1.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                            <div class="video-info">
+                                <h4>Shark/OTW Content - Bloco 3</h4>
+                            </div>
+                        </div>
+                        <div class="video-item horizontal">
+                            <video controls class="gallery-video">
+                                <source src="Portfolio Material of Alexandre Mourao to build the HTML Portfolio for the AI Specialist Job Interview/Content Creation with OTW for Shark Portfolio Material Alexandre/Bloco 4_1 (2).mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                            <div class="video-info">
+                                <h4>Shark/OTW Content - Bloco 4</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Text Content Gallery -->
+            <div class="gallery-category">
+                <h3>AI-Generated Text Content & Documentation</h3>
+                <div class="text-content-grid">
+                    <div class="text-item">
+                        <div class="text-icon">📚</div>
+                        <h4>ARBO E-book: Prompt Engineering</h4>
+                        <p>Comprehensive guide to AI prompt engineering for telehealth applications</p>
+                        <a href="Portfolio Material of Alexandre Mourao to build the HTML Portfolio for the AI Specialist Job Interview/ARBO Portfolio Material Alexandre /ARBO Portfolio Material - Text done with Midjourney, Runway, ElevenLabs, VEED, chatGPT and VIsla/ARBO - ebook_prompt_engineering_arbo.pdf" class="text-link" target="_blank" rel="noopener noreferrer">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                                <polyline points="14,2 14,8 20,8"/>
+                                <line x1="16" y1="13" x2="8" y2="13"/>
+                                <line x1="16" y1="17" x2="8" y2="17"/>
+                                <polyline points="10,9 9,9 8,9"/>
+                            </svg>
+                            View PDF
+                        </a>
+                    </div>
+                    <div class="text-item">
+                        <div class="text-icon">🎬</div>
+                        <h4>ARBO Video Script: Promotional Content</h4>
+                        <p>Professional video script for ARBO telehealth platform promotion</p>
+                        <a href="Portfolio Material of Alexandre Mourao to build the HTML Portfolio for the AI Specialist Job Interview/ARBO Portfolio Material Alexandre /ARBO Portfolio Material - Text done with Midjourney, Runway, ElevenLabs, VEED, chatGPT and VIsla/arbo_video_script_promotional.pdf" class="text-link" target="_blank">View PDF</a>
+                    </div>
+                    <div class="text-item">
+                        <div class="text-icon">📋</div>
+                        <h4>Shark Content Scripts</h4>
+                        <p>Professional content scripts for Shark/OTW video production</p>
+                        <a href="Portfolio Material of Alexandre Mourao to build the HTML Portfolio for the AI Specialist Job Interview/Content Creation with OTW for Shark Portfolio Material Alexandre/Roteiros Shark - Bloco 2 revisado.pdf" class="text-link" target="_blank">View PDF</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Audio Gallery -->
+            <div class="gallery-category">
+                <h3>AI-Generated Audio</h3>
+                <div class="audio-grid">
+                    <div class="audio-item enhanced-audio-item">
+                        <div class="audio-header">
+                            <h4>Shark/OTW AI Sales Voiceover</h4>
+                            <span class="tool-badge">ElevenLabs</span>
+                        </div>
+                        <audio controls class="gallery-audio" preload="metadata" onerror="handleAudioError(this)">
+                            <source src="Portfolio Material of Alexandre Mourao to build the HTML Portfolio for the AI Specialist Job Interview/Content Creation with OTW for Shark Portfolio Material Alexandre/shark_sales_voiceover.mp3" type="audio/mpeg">
+                            <source src="Portfolio Material of Alexandre Mourao to build the HTML Portfolio for the AI Specialist Job Interview/Content Creation with OTW for Shark Portfolio Material Alexandre/shark_sales_voiceover.mp3" type="audio/mp3">
+                            Your browser does not support the audio element.
+                        </audio>
+                        <div class="audio-info">
+                            <p class="audio-description">Professional AI-generated voice for sales automation and customer engagement</p>
+                            <button class="transcript-toggle" onclick="openTranscriptModal()">Show Transcript</button>
+                        </div>
+                        <div class="transcript" id="shark-transcript">
+                            <div class="transcript-content">
+                                <h5>AI-Generated Sales Script:</h5>
+                                <p class="script-text">"Você perde vendas porque o cliente desiste antes de receber resposta? Descubra como automatizar seu atendimento e nunca mais perder uma oportunidade de venda."</p>
+                                <div class="ai-features">
+                                    <h6>AI Voice Features:</h6>
+                                    <ul>
+                                        <li>Natural Brazilian Portuguese pronunciation</li>
+                                        <li>Professional sales tone and delivery</li>
+                                        <li>Optimized for sales conversion</li>
+                                        <li>ElevenLabs AI voice generation technology</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Development Process Documentation -->
+            <div class="gallery-category">
+                <h3>Development Process Documentation</h3>
+                <p class="section-description">Real development process screenshots from ARBO AI telehealth platform development sprints</p>
+                <div class="images-grid">
+                    <div class="gallery-item">
+                        <img src="Portfolio Material of Alexandre Mourao to build the HTML Portfolio for the AI Specialist Job Interview/ARBO Portfolio Material Alexandre /ARBO Sprint Portfolio Proof of Working in Development of AI telehealth /Screenshot 2024-06-05 at 11.06.59.png" alt="ARBO Development Sprint 1" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="image-placeholder" style="display: none;">
+                            <div class="placeholder-icon">💻</div>
+                            <p>ARBO Development Sprint 1</p>
+                        </div>
+                        <div class="gallery-overlay">
+                            <p>ARBO Development Sprint - AI Implementation</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="Portfolio Material of Alexandre Mourao to build the HTML Portfolio for the AI Specialist Job Interview/ARBO Portfolio Material Alexandre /ARBO Sprint Portfolio Proof of Working in Development of AI telehealth /Screenshot 2024-06-05 at 11.19.13.png" alt="ARBO Development Sprint 2" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="image-placeholder" style="display: none;">
+                            <div class="placeholder-icon">💻</div>
+                            <p>ARBO Development Sprint 2</p>
+                        </div>
+                        <div class="gallery-overlay">
+                            <p>ARBO Development Sprint - System Architecture</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="Portfolio Material of Alexandre Mourao to build the HTML Portfolio for the AI Specialist Job Interview/ARBO Portfolio Material Alexandre /ARBO Sprint Portfolio Proof of Working in Development of AI telehealth /Screenshot 2024-06-05 at 12.13.28.png" alt="ARBO Development Sprint 3" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="image-placeholder" style="display: none;">
+                            <div class="placeholder-icon">💻</div>
+                            <p>ARBO Development Sprint 3</p>
+                        </div>
+                        <div class="gallery-overlay">
+                            <p>ARBO Development Sprint - AI Integration</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="Portfolio Material of Alexandre Mourao to build the HTML Portfolio for the AI Specialist Job Interview/ARBO Portfolio Material Alexandre /ARBO Sprint Portfolio Proof of Working in Development of AI telehealth /Screenshot 2024-06-05 at 13.21.28.png" alt="ARBO Development Sprint 4" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="image-placeholder" style="display: none;">
+                            <div class="placeholder-icon">💻</div>
+                            <p>ARBO Development Sprint 4</p>
+                        </div>
+                        <div class="gallery-overlay">
+                            <p>ARBO Development Sprint - Final Implementation</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="Portfolio Material of Alexandre Mourao to build the HTML Portfolio for the AI Specialist Job Interview/ARBO Portfolio Material Alexandre /ARBO Sprint Portfolio Proof of Working in Development of AI telehealth /Screenshot 2024-06-05 at 12.35.50.png" alt="ARBO Development Sprint 5" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="image-placeholder" style="display: none;">
+                            <div class="placeholder-icon">💻</div>
+                            <p>ARBO Development Sprint 5</p>
+                        </div>
+                        <div class="gallery-overlay">
+                            <p>ARBO Development Sprint - System Testing</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="Portfolio Material of Alexandre Mourao to build the HTML Portfolio for the AI Specialist Job Interview/ARBO Portfolio Material Alexandre /ARBO Sprint Portfolio Proof of Working in Development of AI telehealth /Screenshot 2024-06-05 at 16.10.01.png" alt="ARBO Development Sprint 6" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="image-placeholder" style="display: none;">
+                            <div class="placeholder-icon">💻</div>
+                            <p>ARBO Development Sprint 6</p>
+                        </div>
+                        <div class="gallery-overlay">
+                            <p>ARBO Development Sprint - Development Progress</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technical Architecture Section -->
+    <section id="technical-architecture" class="section technical-architecture-section">
+        <div class="container">
+            <div class="tech-arch-header">
+                <span class="tech-badge">TECHNICAL ARCHITECTURE</span>
+                <h2 class="section-title">Production-Grade AI Systems</h2>
+                <p class="tech-description">Comprehensive technical documentation of AI implementations, showcasing enterprise-level architecture design and development methodology.</p>
+            </div>
+            
+            <!-- Smart Food Multi-Modal AI Architecture -->
+            <div class="architecture-diagram">
+                <h3>Smart Food Multi-Modal AI Architecture</h3>
+                <div class="workflow-diagram">
+                    <div class="workflow-step">
+                        <div class="step-icon whatsapp-icon">📱</div>
+                        <div class="step-content">
+                            <h4>WhatsApp Input</h4>
+                            <p>WAHA Integration</p>
+                        </div>
+                    </div>
+                    <div class="workflow-arrow">→</div>
+                    <div class="workflow-step">
+                        <div class="step-icon n8n-icon">⚙️</div>
+                        <div class="step-content">
+                            <h4>n8n Processing</h4>
+                            <p>40+ Nodes</p>
+                        </div>
+                    </div>
+                    <div class="workflow-arrow">→</div>
+                    <div class="workflow-step">
+                        <div class="step-icon ai-icon">🧠</div>
+                        <div class="step-content">
+                            <h4>AI Analysis</h4>
+                            <p>GPT-4 + Vision</p>
+                        </div>
+                    </div>
+                    <div class="workflow-arrow">→</div>
+                    <div class="workflow-step">
+                        <div class="step-icon data-icon">🗄️</div>
+                        <div class="step-content">
+                            <h4>Data Storage</h4>
+                            <p>PostgreSQL + Qdrant</p>
+                        </div>
+                    </div>
+                    <div class="workflow-arrow">→</div>
+                    <div class="workflow-step">
+                        <div class="step-icon response-icon">↩️</div>
+                        <div class="step-content">
+                            <h4>Response</h4>
+                            <p>Automated Reply</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="architecture-features">
+                    <div class="feature-badge">
+                        <span class="feature-icon">🛡️</span>
+                        <span>HIPAA/LGPD Compliant</span>
+                    </div>
+                    <div class="feature-badge">
+                        <span class="feature-icon">🔄</span>
+                        <span>24/7 Automation</span>
+                    </div>
+                    <div class="feature-badge">
+                        <span class="feature-icon">👁️</span>
+                        <span>Multi-Modal Processing</span>
+                    </div>
+                    <div class="feature-badge">
+                        <span class="feature-icon">🌍</span>
+                        <span>Multi-Language Support</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Technology Mastery -->
+            <div class="technology-mastery">
+                <h3>Technology Mastery</h3>
+                <div class="tech-categories">
+                    <div class="tech-category">
+                        <div class="category-header">
+                            <span class="category-icon">🤖</span>
+                            <h4>AI Platforms</h4>
+                        </div>
+                        <div class="tech-tags">
+                            <span class="tech-tag">OpenAI GPT-4</span>
+                            <span class="tech-tag">Anthropic Claude</span>
+                            <span class="tech-tag">Whisper AI</span>
+                            <span class="tech-tag">DALL-E 3</span>
+                            <span class="tech-tag">Midjourney</span>
+                            <span class="tech-tag">Runway</span>
+                            <span class="tech-tag">ElevenLabs</span>
+                        </div>
+                    </div>
+                    
+                    <div class="tech-category">
+                        <div class="category-header">
+                            <span class="category-icon">⚙️</span>
+                            <h4>Automation</h4>
+                        </div>
+                        <div class="tech-tags">
+                            <span class="tech-tag">n8n (40+ nodes)</span>
+                            <span class="tech-tag">Zapier</span>
+                            <span class="tech-tag">WhatsApp Business API</span>
+                            <span class="tech-tag">WAHA</span>
+                            <span class="tech-tag">Google Sheets API</span>
+                        </div>
+                    </div>
+                    
+                    <div class="tech-category">
+                        <div class="category-header">
+                            <span class="category-icon">🗄️</span>
+                            <h4>Data & Storage</h4>
+                        </div>
+                        <div class="tech-tags">
+                            <span class="tech-tag">PostgreSQL</span>
+                            <span class="tech-tag">Qdrant Vector DB</span>
+                            <span class="tech-tag">FAISS</span>
+                            <span class="tech-tag">Vector Embeddings</span>
+                            <span class="tech-tag">RAG Pipelines</span>
+                        </div>
+                    </div>
+                    
+                    <div class="tech-category">
+                        <div class="category-header">
+                            <span class="category-icon">&lt;/&gt;</span>
+                            <h4>Development</h4>
+                        </div>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Python (Vibe Coding)</span>
+                            <span class="tech-tag">Cursor IDE</span>
+                            <span class="tech-tag">ChatGPT Development</span>
+                            <span class="tech-tag">API Integration</span>
+                            <span class="tech-tag">Prompt Engineering</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-hero">
+                    <div class="contact-avatar">
+                        <img src="Resume_CV_Portfolio_Cover Letter_AI Specialist/Alexandre Photo LinkedIn Chat.png" alt="Alexandre Mourao" class="hero-photo">
+                        <div class="avatar-ring"></div>
+                    </div>
+                    <div class="contact-intro">
+                        <h3>Let's Connect</h3>
+                        <p>Ready to discuss AI-powered solutions for your projects? I'm here to help transform your ideas into reality with cutting-edge AI technology.</p>
+                    </div>
+                </div>
+                
+                <div class="contact-methods-grid">
+                    <div class="contact-card email-card">
+                        <div class="card-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                <polyline points="22,6 12,13 2,6"/>
+                            </svg>
+                        </div>
+                        <div class="card-content">
+                            <h4>Email Me</h4>
+                            <p>Get in touch for project discussions, collaborations, or any questions about AI solutions.</p>
+                            <a href="mailto:contato.alexandremourao@gmail.com" class="contact-action-btn email-btn">
+                                <span>contato.alexandremourao@gmail.com</span>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M7 17L17 7"/>
+                                    <path d="M7 7h10v10"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card linkedin-card">
+                        <div class="card-icon linkedin-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                                <rect x="2" y="9" width="4" height="12"/>
+                                <circle cx="4" cy="4" r="2"/>
+                            </svg>
+                        </div>
+                        <div class="card-content">
+                            <h4>LinkedIn Profile</h4>
+                            <p>Connect with me on LinkedIn to stay updated on my latest AI projects and professional insights.</p>
+                            <a href="https://www.linkedin.com/in/lexmourao/" class="contact-action-btn linkedin-btn" target="_blank">
+                                <span>View Profile</span>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M7 17L17 7"/>
+                                    <path d="M7 7h10v10"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                    
+                    <div class="resume-section">
+                        <h3>Professional Documents</h3>
+                        <p>Access my professional CV and cover letter showcasing 22+ MyGPTs, 405+ user sessions, enterprise partnerships, and production-grade AI implementations.</p>
+                        <div class="resume-documents">
+                            <div class="document-card">
+                                <div class="document-icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                                        <polyline points="14,2 14,8 20,8"/>
+                                        <line x1="16" y1="13" x2="8" y2="13"/>
+                                        <line x1="16" y1="17" x2="8" y2="17"/>
+                                        <polyline points="10,9 9,9 8,9"/>
+                                    </svg>
+                                </div>
+                                <div class="document-info">
+                                    <h4>CV & Resume</h4>
+                                    <p>Alexandre Mourao_AI Specialist_CV_Resume_2025.pdf</p>
+                                </div>
+                                <div class="document-actions">
+                                    <a href="Resume_CV_Portfolio_Cover Letter_AI Specialist/Alexandre Mourao_AI Specialist_CV_Resume_2025.pdf" class="document-btn view-btn" target="_blank">
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+                                            <circle cx="12" cy="12" r="3"/>
+                                        </svg>
+                                        View
+                                    </a>
+                                    <a href="Resume_CV_Portfolio_Cover Letter_AI Specialist/Alexandre Mourao_AI Specialist_CV_Resume_2025.pdf" class="document-btn download-btn" download>
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                                            <polyline points="7,10 12,15 17,10"/>
+                                            <line x1="12" y1="15" x2="12" y2="3"/>
+                                        </svg>
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="document-card">
+                                <div class="document-icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                        <polyline points="22,6 12,13 2,6"/>
+                                    </svg>
+                                </div>
+                                <div class="document-info">
+                                    <h4>Cover Letter</h4>
+                                    <p>Cover Letter_Portfolio_Alexandre Mourao_AI Specialist_2025.pdf</p>
+                                </div>
+                                <div class="document-actions">
+                                    <a href="Resume_CV_Portfolio_Cover Letter_AI Specialist/Cover Letter_Portfolio_Alexandre Mourao_AI Specialist_2025.pdf" class="document-btn view-btn" target="_blank">
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+                                            <circle cx="12" cy="12" r="3"/>
+                                        </svg>
+                                        View
+                                    </a>
+                                    <a href="Resume_CV_Portfolio_Cover Letter_AI Specialist/Cover Letter_Portfolio_Alexandre Mourao_AI Specialist_2025.pdf" class="document-btn download-btn" download>
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                                            <polyline points="7,10 12,15 17,10"/>
+                                            <line x1="12" y1="15" x2="12" y2="3"/>
+                                        </svg>
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-qr">
+                    <div class="qr-code">
+                        <div class="qr-container">
+                            <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://www.linkedin.com/in/lexmourao/" alt="LinkedIn QR Code" class="qr-image">
+                            <p class="qr-text">Scan to open LinkedIn</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Alexandre Mourão. All rights reserved.</p>
+            <p>AI Specialist Portfolio - Demonstrating the future of content creation</p>
+        </div>
+    </footer>
+
+    <!-- Image Modal -->
+    <div id="imageModal" class="modal" onclick="closeImageModal()">
+        <div class="modal-content" onclick="event.stopPropagation()">
+            <span class="close" onclick="closeImageModal()">&times;</span>
+            <img id="modalImage" src="" alt="">
+            <div class="modal-info">
+                <h3 id="modalTitle"></h3>
+            </div>
+        </div>
+    </div>
+
+    <!-- Project Modal -->
+    <div id="projectModal" class="modal" onclick="closeProjectModal()">
+        <div class="modal-content project-modal-content" onclick="event.stopPropagation()">
+            <span class="close" onclick="closeProjectModal()">&times;</span>
+            <div id="projectModalContent">
+                <!-- Content will be populated by JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <!-- MyGPTs Modal -->
+    <div id="mygptsModal" class="modal" onclick="closeMyGPTsModal()">
+        <div class="modal-content project-modal-content" onclick="event.stopPropagation()">
+            <span class="close" onclick="closeMyGPTsModal()">&times;</span>
+            <div class="mygpts-modal-content">
+                <h2>MyGPTs AI Solutions Portfolio</h2>
+                <div class="mygpts-intro">
+                    <p>22+ production-grade AI solutions demonstrating expertise in RAG systems, Python automation, and enterprise prototypes. Each solution showcases different aspects of AI specialist capabilities.</p>
+                </div>
+                <div class="mygpts-grid">
+                    <div class="mygpt-item">
+                        <h4>Infinite Machine [MyGPT Knowledge Hub]</h4>
+                        <p>AI Assistant: Instantly access product info, training, support, and company knowledge — empowering you to sell smarter and support customers with confidence.</p>
+                        <div class="mygpt-labels">
+                            <span class="label">Product Info</span>
+                            <span class="label">Training</span>
+                            <span class="label">Support</span>
+                        </div>
+                        <a href="https://chatgpt.com/g/g-6849eef841f08191b3777f96b80aa9a4-infinite-machine-mygpt-knowledge-hub" class="mygpt-link" target="_blank">View Solution</a>
+                    </div>
+                    <div class="mygpt-item">
+                        <h4>Shark Vendas - MyGPT</h4>
+                        <p>MyGPT exclusivo do time de vendas Shark Business: pitchs, mensagens, simulações, treinamento, objeções, manual, informações, tutoriais, comandos, onboarding e suporte.</p>
+                        <div class="mygpt-labels">
+                            <span class="label">Sales Team</span>
+                            <span class="label">Training</span>
+                            <span class="label">Support</span>
+                        </div>
+                        <a href="https://chatgpt.com/g/g-681f620a09748191bc1b637691a19b0e-shark-vendas-mygpt" class="mygpt-link" target="_blank">View Solution</a>
+                    </div>
+                    <div class="mygpt-item">
+                        <h4>Create My GPT</h4>
+                        <p>Create My GPT is a custom guide to help you build a GPT model tailored to your business. It guides you through understanding objectives, structuring prompts, training the model, and optimizing it for use cases like customer support, onboarding, and knowledge management.</p>
+                        <div class="mygpt-labels">
+                            <span class="label">Custom Guide</span>
+                            <span class="label">Business</span>
+                            <span class="label">Training</span>
+                        </div>
+                        <a href="https://chatgpt.com/g/g-6732b5834f70819089e75a7aff21fc1f-create-my-gpt" class="mygpt-link" target="_blank">View Solution</a>
+                    </div>
+                    <div class="mygpt-item">
+                        <h4>Produção Audiovisual | Uma Dose de Nós</h4>
+                        <p>Um assistente inteligente para gerenciar e otimizar a produção audiovisual da web série 'Uma Dose de Nós'. Projetado para ajudar atores, roteiristas, diretores, produtores e toda a equipe de produção a acessar roteiros, ensaiar falas, gerenciar cronogramas e consultar documentos importantes.</p>
+                        <div class="mygpt-labels">
+                            <span class="label">Audiovisual</span>
+                            <span class="label">Production</span>
+                            <span class="label">Team Management</span>
+                        </div>
+                        <a href="https://chatgpt.com/g/g-67a8e88125508191b20a567686b7bfad-producao-audiovisual-uma-dose-de-nos" class="mygpt-link" target="_blank">View Solution</a>
+                    </div>
+                    <div class="mygpt-item">
+                        <h4>GPT in the Classroom</h4>
+                        <p>This GPT is designed to help educators and administrators integrate AI into their teaching and administrative processes. It provides access to UNESCO guidelines, implementation strategies for AI in classrooms, and a platform for educators to exchange ideas and collaborate on AI educational projects.</p>
+                        <div class="mygpt-labels">
+                            <span class="label">Education</span>
+                            <span class="label">UNESCO Guidelines</span>
+                            <span class="label">Collaboration</span>
+                        </div>
+                        <a href="https://chatgpt.com/g/g-675457c9628c81919d8bd3bca78567b9-gpt-in-the-classroom" class="mygpt-link" target="_blank">View Solution</a>
+                    </div>
+                    <div class="mygpt-item">
+                        <h4>Alexandre Mourao Personal Diet Method</h4>
+                        <p>A personalized nutrition Ai-assistant designed to implement the Alexandre Mourão Personal Diet Method. This MyGPT helps clients understand their eating habits, make gradual improvements, and achieve sustainable health goals through a structured 10-week program.</p>
+                        <div class="mygpt-labels">
+                            <span class="label">Nutrition</span>
+                            <span class="label">10-week Program</span>
+                            <span class="label">Health Goals</span>
+                        </div>
+                        <a href="https://chatgpt.com/g/g-67815d0b748c8191ac0d04fe621e38dc-alexandre-mourao-personal-diet-method" class="mygpt-link" target="_blank">View Solution</a>
+                    </div>
+                    <div class="mygpt-item">
+                        <h4>Walden MyGPT</h4>
+                        <p>A personalized ai-assistant to support onboarding, training, and sales for Marta Bez, Walden's sales and brand representative. It provides product knowledge, sales strategies, and brand-aligned responses to improve productivity and customer engagement.</p>
+                        <div class="mygpt-labels">
+                            <span class="label">Sales Training</span>
+                            <span class="label">Brand Representative</span>
+                            <span class="label">Customer Engagement</span>
+                        </div>
+                        <a href="https://chatgpt.com/g/g-6782ef0c13848191910e4b5b1aecae5c-walden-mygpt" class="mygpt-link" target="_blank">View Solution</a>
+                    </div>
+                    <div class="mygpt-item">
+                        <h4>MindMiners GPT Guide</h4>
+                        <p>MindMiners' expert on products, services, and insights.</p>
+                        <div class="mygpt-labels">
+                            <span class="label">Products</span>
+                            <span class="label">Services</span>
+                            <span class="label">Insights</span>
+                        </div>
+                        <a href="https://chatgpt.com/g/g-677dc2e1016481918bcef5c039cfb927-mindminers-gpt-guide" class="mygpt-link" target="_blank">View Solution</a>
+                    </div>
+                </div>
+                <div class="mygpts-footer">
+                    <p><strong>Total Solutions:</strong> 8+ Featured MyGPTs (22+ Total Portfolio)</p>
+                    <p><strong>Technologies:</strong> ChatGPT API, RAG Systems, Python Automation, Content Generation, Enterprise Integration</p>
+                    <p><strong>Status:</strong> Production-ready solutions with active user engagement and continuous development</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Transcript Modal -->
+    <div id="transcriptModal" class="modal" onclick="closeTranscriptModal()">
+        <div class="modal-content transcript-modal-content" onclick="event.stopPropagation()">
+            <span class="close" onclick="closeTranscriptModal()">&times;</span>
+            <div class="transcript-modal-header">
+                <h2>AI-Generated Sales Script</h2>
+                <div class="language-badges">
+                    <span class="lang-badge active" data-lang="pt" onclick="switchLanguage('pt')">🇧🇷 Português</span>
+                    <span class="lang-badge" data-lang="en" onclick="switchLanguage('en')">🇺🇸 English</span>
+                    <span class="lang-badge" data-lang="es" onclick="switchLanguage('es')">🇪🇸 Español</span>
+                </div>
+            </div>
+            <div class="transcript-modal-body">
+                <div class="transcript-languages">
+                    <div class="transcript-lang active" id="transcript-pt">
+                        <h3>Português (Original)</h3>
+                        <div class="script-quote">
+                            <p>"Você perde vendas porque o cliente desiste antes de receber resposta?"</p>
+                        </div>
+                    </div>
+                    <div class="transcript-lang" id="transcript-en">
+                        <h3>English Translation</h3>
+                        <div class="script-quote">
+                            <p>"Do you lose sales because the customer gives up before receiving a response?"</p>
+                        </div>
+                    </div>
+                    <div class="transcript-lang" id="transcript-es">
+                        <h3>Traducción al Español</h3>
+                        <div class="script-quote">
+                            <p>"¿Pierdes ventas porque el cliente se rinde antes de recibir una respuesta?"</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="ai-features-modal">
+                    <h4>AI Voice Features</h4>
+                    <div class="features-grid">
+                        <div class="feature-item">
+                            <span class="feature-icon">🗣️</span>
+                            <span>Natural Brazilian Portuguese pronunciation</span>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-icon">💼</span>
+                            <span>Professional sales tone and delivery</span>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-icon">📈</span>
+                            <span>Optimized for sales conversion</span>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-icon">🤖</span>
+                            <span>ElevenLabs AI voice generation</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Media Gallery Modal -->
+    <div id="mediaGalleryModal" class="modal" onclick="closeMediaGalleryModal()">
+        <div class="modal-content project-modal-content" onclick="event.stopPropagation()">
+            <span class="close" onclick="closeMediaGalleryModal()">&times;</span>
+            <div class="media-gallery-modal-content">
+                <h2>Media Gallery</h2>
+                <p>Explore my AI-generated content across different media types. Click on any section to navigate directly to that content.</p>
+                
+                <div class="media-gallery-grid">
+                    <a href="#gallery" class="media-gallery-item" onclick="closeMediaGalleryModal(); scrollToSection('gallery'); setTimeout(() => { document.querySelector('.gallery-category:nth-child(2)').scrollIntoView({ behavior: 'smooth', block: 'start' }); }, 100);">
+                        <div class="media-gallery-icon">🖼️</div>
+                        <h3>AI-Generated Images</h3>
+                        <p>ARBO logos, patient interfaces, medical banners, and healthcare visual content created with Midjourney and DALL-E 3</p>
+                    </a>
+                    
+                    <a href="#gallery" class="media-gallery-item" onclick="closeMediaGalleryModal(); scrollToSection('gallery'); setTimeout(() => { document.querySelector('.gallery-category:nth-child(3)').scrollIntoView({ behavior: 'smooth', block: 'start' }); }, 100);">
+                        <div class="media-gallery-icon">👤</div>
+                        <h3>AI-Generated Avatars</h3>
+                        <p>Mary Kay AI representatives, ARBO robot avatars, and professional AI-generated character designs</p>
+                    </a>
+                    
+                    <a href="#gallery" class="media-gallery-item" onclick="closeMediaGalleryModal(); scrollToSection('gallery'); setTimeout(() => { document.querySelector('.gallery-category:nth-child(4)').scrollIntoView({ behavior: 'smooth', block: 'start' }); }, 100);">
+                        <div class="media-gallery-icon">🎥</div>
+                        <h3>AI-Generated Videos</h3>
+                        <p>ARBO healthcare videos, Uma Dose De Nos web series, Shark business content, and AI-enhanced video production</p>
+                    </a>
+                    
+                    <a href="#gallery" class="media-gallery-item" onclick="closeMediaGalleryModal(); scrollToSection('gallery'); setTimeout(() => { document.querySelector('.gallery-category:nth-child(5)').scrollIntoView({ behavior: 'smooth', block: 'start' }); }, 100);">
+                        <div class="media-gallery-icon">📄</div>
+                        <h3>AI-Generated Text Content & Documentation</h3>
+                        <p>PDFs, ebooks, documentation, and AI-generated written content for various projects and applications</p>
+                    </a>
+                    
+                    <a href="#gallery" class="media-gallery-item" onclick="closeMediaGalleryModal(); scrollToSection('gallery'); setTimeout(() => { document.querySelector('.gallery-category:nth-child(6)').scrollIntoView({ behavior: 'smooth', block: 'start' }); }, 100);">
+                        <div class="media-gallery-icon">🎵</div>
+                        <h3>AI-Generated Audio</h3>
+                        <p>ElevenLabs voice generation, sales scripts, multilingual audio content, and AI-powered voice synthesis</p>
+                    </a>
+                    
+                    <a href="#gallery" class="media-gallery-item" onclick="closeMediaGalleryModal(); scrollToSection('gallery'); setTimeout(() => { document.querySelector('.gallery-category:nth-child(7)').scrollIntoView({ behavior: 'smooth', block: 'start' }); }, 100);">
+                        <div class="media-gallery-icon">💻</div>
+                        <h3>Development Process Documentation</h3>
+                        <p>Real development process screenshots from ARBO AI telehealth platform development sprints and technical workflows</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
